@@ -1,0 +1,606 @@
+<Software>
+	<CategoryDefault>デフォルト</CategoryDefault>
+	<Software Name="Operating System">
+		<Name>オペレーティングシステム</Name>
+		<Description>オペレーションシステムはこのゲームの中でも一番大きい割合を占めています。
+ほとんどのソフトウェアを動かすためにオペレーションシステムが必要となります。オペレーションシステムが選択されないとソフトウェアも選択されません。</Description>
+		<Features>
+			<Feature Name="Terminal">
+				<Name>ターミナル接続</Name>
+				<Description>テキストベースのインターフェースです。</Description>
+			</Feature>
+			<Feature Name="GUI">
+				<Name>GUI</Name>
+				<Description>直感的にわかりやすい、アイコンやフォルダなどで整理された画面インターフェイスです。</Description>
+			</Feature>
+			<Feature Name="3D rendering">
+				<Name>3D レンダリング</Name>
+			</Feature>
+			<Feature Name="Input system">
+				<Name>インプット システム</Name>
+				<Description>対話的な入出力装置を実装しています。</Description>
+			</Feature>
+			<Feature Name="Plug'n'Play">
+				<Name>プラグインプレイ</Name>
+				<Description>自動的に機器を認識します。</Description>
+			</Feature>
+			<Feature Name="Touch">
+				<Name>タッチ操作</Name>
+				<Description>利用者が指や手で直接操作する入力方式です。</Description>
+			</Feature>
+			<Feature Name="Multithreading">
+				<Name>マルチレンダリング</Name>
+				<Description>アプリケーション上で複数の作業を同時に処理するように振る舞います。</Description>
+			</Feature>
+			<Feature Name="Multitasking">
+				<Name>マルチタスク</Name>
+				<Description>OS上で複数の作業を同時に処理するように振る舞います。</Description>
+			</Feature>
+			<Feature Name="Networking">
+				<Name>ネットワーク</Name>
+				<Description>通信ネットワーク機能に対応することができます。ネットワークを経由して同時に多数の利用者が通信することが可能になります。</Description>
+			</Feature>
+			<Feature Name="Auto-update">
+				<Name>ソフトウェア更新</Name>
+				<Description>セキュリティの更新や、機能のアップグレード、ドライバの更新などが自動で配信されます。そのためには勝手に再起動されることもしばしば起こります。</Description>
+			</Feature>
+			<Feature Name="64-bit">
+				<Name>64 ビット</Name>
+				<Description>大きな数値を扱えます。メモリ、ファイル、人生の矜持など。</Description>
+			</Feature>
+			<Feature Name="PC speaker">
+				<Name>PC スピーカー</Name>
+				<Description>ビープ音を鳴らします。</Description>
+			</Feature>
+			<Feature Name="8-bit audio">
+				<Name>8ビット オーディオ</Name>
+			</Feature>
+			<Feature Name="HD audio">
+				<Name>HD オーディオ</Name>
+				<Description>8ビット音響のサウンドシステムです。</Description>
+			</Feature>
+		</Features>
+		<Categories>
+			<Category Name="Computer">
+				<Name>コンピュータ</Name>
+				<Description>デスクトップＰＣ</Description>
+			</Category>
+			<Category Name="Console">
+				<Name>コンソール</Name>
+				<Description>ＴＶに接続して利用します。</Description>
+			</Category>
+			<Category Name="Phone">
+				<Name>携帯</Name>
+				<Description>携帯端末です。</Description>
+			</Category>
+		</Categories>
+	</Software>
+	<Software Name="2D Editor">
+		<Name>2D エディタ</Name>
+		<Description>２次元の色情報を処理することが出来るプログラム</Description>
+		<Features>
+			<Feature Name="Image rendering">
+				<Name>画面描画</Name>
+				<Description>実際に画像を画面に表示する機能</Description>
+			</Feature>
+			<Feature Name="Pixel manipulation">
+				<Name>ドット描画</Name>
+			</Feature>
+			<Feature Name="Advanced brushes">
+				<Name>高度なブラシ</Name>
+			</Feature>
+			<Feature Name="Image effects">
+				<Name>イメージエフェクト</Name>
+				<Description>回転や加工が容易です</Description>
+			</Feature>
+			<Feature Name="Cinematic filter">
+				<Name>画像フィルタ</Name>
+				<Description>より本格的な画像加工が可能です</Description>
+			</Feature>
+			<Feature Name="Image compression">
+				<Name>画像圧縮</Name>
+			</Feature>
+			<Feature Name="Video editing">
+				<Name>動画編集</Name>
+			</Feature>
+			<Feature Name="Video codec">
+				<Name>ビデオコーデック</Name>
+			</Feature>
+			<Feature Name="Stock library">
+				<Name>ライブラリ</Name>
+			</Feature>
+		</Features>
+		<Categories></Categories>
+	</Software>
+	<Software Name="3D Editor">
+		<Name>3D エディタ</Name>
+		<Description>基本的に空間にポイントを作ります。</Description>
+		<Features>
+			<Feature Name="Vertex editing">
+				<Name>頂点編集</Name>
+				<Description>画面上の周りの空間にポイントを移動します。</Description>
+			</Feature>
+			<Feature Name="Rendering">
+				<Name>レンダリング</Name>
+				<Description>絵の中にポイントを処理して描写します。</Description>
+			</Feature>
+			<Feature Name="Animation">
+				<Name>アニメーション</Name>
+				<Description>ポイント自身を動かします。</Description>
+			</Feature>
+			<Feature Name="Sculpting">
+				<Name>スカルプティング</Name>
+				<Description>ポイントを粘土のように見せます</Description>
+			</Feature>
+			<Feature Name="Voxel sculpting">
+				<Name>頂点スカルプティング</Name>
+				<Description>全てがポイントです。</Description>
+			</Feature>
+			<Feature Name="Physics">
+				<Name>物体</Name>
+				<Description>ポイントが相互作用を受けます。</Description>
+			</Feature>
+			<Feature Name="Realistic hair">
+				<Name>リアルな髪</Name>
+				<Description>ポイントの間に線を作ります。</Description>
+			</Feature>
+			<Feature Name="Particles">
+				<Name>粒子</Name>
+				<Description>全ての場所でポイントをスプレーします。</Description>
+			</Feature>
+			<Feature Name="Liquid simulation">
+				<Name>液体シミュレーション</Name>
+				<Description>全ての場所にポイントを流出させます。</Description>
+			</Feature>
+			<Feature Name="PBR">
+				<Name>物理演算</Name>
+				<Description>物理レンダリング（Physically Based Rendering）は光子とポイントを反応させてシミュレーションします。</Description>
+			</Feature>
+			<Feature Name="Distributed rendering">
+				<Name>分散レンダリング</Name>
+				<Description>１枚の画像において多くのコンピュータに分散させてポイントを処理させます。</Description>
+			</Feature>
+		</Features>
+		<Categories></Categories>
+	</Software>
+	<Software Name="Audio Tool">
+		<Name>オーディオツール</Name>
+		<Description>The audio tool is for recording and mixing sound effects and music.</Description>
+		<Features>
+			<Feature Name="Audio playback">
+				<Name>オーディオ プレイバック</Name>
+			</Feature>
+			<Feature Name="Recording">
+				<Name>録音編集</Name>
+			</Feature>
+			<Feature Name="Music editor">
+				<Name>ミュージックエディタ</Name>
+			</Feature>
+			<Feature Name="Virtual instruments">
+				<Name>仮想楽器</Name>
+				<Description>Guitar? MIDI Keyboard. Violin? MIDI Keyboard. Drums? MIDI Keyboard. Saxophone? Yes.</Description>
+			</Feature>
+			<Feature Name="Sound library">
+				<Name>サウンドライブラリ</Name>
+			</Feature>
+			<Feature Name="Instrument library">
+				<Name>楽器ライブラリ</Name>
+			</Feature>
+			<Feature Name="Autotune">
+				<Name>オートチューニング</Name>
+				<Description>This is a thing</Description>
+			</Feature>
+			<Feature Name="Audio compression">
+				<Name>音源圧縮</Name>
+			</Feature>
+		</Features>
+		<Categories></Categories>
+	</Software>
+	<Software Name="Game Engine">
+		<Name>ゲームエンジン</Name>
+		<Description>The game engine is what powers a game. It contains everything needed for a game, except for the creativity.</Description>
+		<Features>
+			<Feature Name="Text-based">
+				<Name>テキストベース</Name>
+			</Feature>
+			<Feature Name="2D rendering">
+				<Name>2D レンダリング</Name>
+			</Feature>
+			<Feature Name="Visual editor">
+				<Name>映像エディタ</Name>
+				<Description>Drag'n'drop is the best</Description>
+			</Feature>
+			<Feature Name="2D assets">
+				<Name>2D アセット</Name>
+				<Description>Help the developer along with some prepackaged assets</Description>
+			</Feature>
+			<Feature Name="3D rendering">
+				<Name>3D レンダリング</Name>
+			</Feature>
+			<Feature Name="3D assets">
+				<Name>3D アセット</Name>
+				<Description>Like 2D assets, but with an extra dimension</Description>
+			</Feature>
+			<Feature Name="VR">
+				<Name>VR</Name>
+				<Description>バーチャルリアリティ</Description>
+			</Feature>
+			<Feature Name="Advanced shaders">
+				<Name>高度な描画機能</Name>
+				<Description>Not everything has to be flat! The irony is not lost on me</Description>
+			</Feature>
+			<Feature Name="Shadows">
+				<Name>影</Name>
+				<Description>A very CREATIVE feature</Description>
+			</Feature>
+			<Feature Name="PC speaker">
+				<Name>PC スピーカー</Name>
+			</Feature>
+			<Feature Name="8-bit audio">
+				<Name>8ビット オーディオ</Name>
+			</Feature>
+			<Feature Name="Audio assets">
+				<Name>オーディオ アセット</Name>
+			</Feature>
+			<Feature Name="HD audio">
+				<Name>HD オーディオ</Name>
+			</Feature>
+			<Feature Name="Networking">
+				<Name>ネットワーク</Name>
+			</Feature>
+			<Feature Name="Physics">
+				<Name>物理</Name>
+			</Feature>
+			<Feature Name="Scripting">
+				<Name>スクリプティング</Name>
+				<Description>Seperate the game logic from the logic logic</Description>
+			</Feature>
+			<Feature Name="Visual scripting">
+				<Name>ビジュアル スクリプティング</Name>
+				<Description>It's like programming, but you use the mouse more</Description>
+			</Feature>
+		</Features>
+		<Categories></Categories>
+	</Software>
+	<Software Name="Game">
+		<Name>ゲーム</Name>
+		<Description>Interactive art.</Description>
+		<Features>
+			<Feature Name="Text-based">
+				<Name>テキストベース</Name>
+				<Description>Make the player type a novel to complete the game</Description>
+			</Feature>
+			<Feature Name="2D graphics">
+				<Name>2D グラフィックス</Name>
+			</Feature>
+			<Feature Name="3D graphics">
+				<Name>3D グラフィックス</Name>
+			</Feature>
+			<Feature Name="VR">
+				<Name>VR</Name>
+				<Description>Virtual Reality</Description>
+			</Feature>
+			<Feature Name="Physics">
+				<Name>物理</Name>
+				<Description>Bouncy stuff</Description>
+			</Feature>
+			<Feature Name="Music">
+				<Name>ミュージック</Name>
+			</Feature>
+			<Feature Name="Dialog">
+				<Name>ダイアログ</Name>
+			</Feature>
+			<Feature Name="Open world">
+				<Name>オープン・ワールド</Name>
+			</Feature>
+			<Feature Name="AI">
+				<Name>AI</Name>
+			</Feature>
+			<Feature Name="Local multiplayer">
+				<Name>ローカル マルチプレイヤー</Name>
+			</Feature>
+			<Feature Name="Multiplayer">
+				<Name>マルチプレイヤー</Name>
+				<Description>Facilitate the screaming of obscenities by teenagers from all over the world</Description>
+			</Feature>
+			<Feature Name="MMO">
+				<Name>MMO</Name>
+			</Feature>
+			<Feature Name="Mod support">
+				<Name>MOD 対応</Name>
+				<Description>You can mod this feature out of the game if you want</Description>
+			</Feature>
+			<Feature Name="Touch support">
+				<Name>タッチ操作 対応</Name>
+			</Feature>
+			<Feature Name="Advanced input">
+				<Name>操作方法の拡張対応</Name>
+				<Description>Wheels, joysticks, etc.</Description>
+			</Feature>
+			<Feature Name="Cutscenes">
+				<Name>動画シーン</Name>
+			</Feature>
+			<Feature Name="Advanced cutscenes">
+				<Name>高度な動画シーン</Name>
+				<Description>Reflect player choices in the story by rendering cutscenes in realtime</Description>
+			</Feature>
+			<Feature Name="Motion capture">
+				<Name>モーションキャプチャ</Name>
+			</Feature>
+		</Features>
+		<Categories>
+			<Category Name="RPG">
+				<Name>RPG</Name>
+				<Description>Role Playing Game</Description>
+			</Category>
+			<Category Name="Adventure">
+				<Name>アドベンチャー</Name>
+			</Category>
+			<Category Name="Simulation">
+				<Name>シミュレーション</Name>
+				<Description>You're playing one!</Description>
+			</Category>
+			<Category Name="Sports">
+				<Name>スポーツ</Name>
+			</Category>
+			<Category Name="RTS">
+				<Name>RTS</Name>
+				<Description>Real Time Strategy</Description>
+			</Category>
+			<Category Name="FPS">
+				<Name>FPS</Name>
+				<Description>First Person Shooter</Description>
+			</Category>
+		</Categories>
+	</Software>
+	<Software Name="Office Software">
+		<Name>オフィス ソフトウェア</Name>
+		<Description></Description>
+		<Features>
+			<Feature Name="Word processor">
+				<Name>文書作成</Name>
+			</Feature>
+			<Feature Name="WYSIWYG">
+				<Name>WYSIWYG</Name>
+				<Description>What You See Is What You Get</Description>
+			</Feature>
+			<Feature Name="Spellcheck">
+				<Name>スペルチェック</Name>
+				<Description>Make everyone seem competent</Description>
+			</Feature>
+			<Feature Name="Auto layout">
+				<Name>オート レイアウト</Name>
+				<Description>i.e. spending 30 minutes trying to make the picture fit in the place</Description>
+			</Feature>
+			<Feature Name="Spreadsheet">
+				<Name>表計算</Name>
+			</Feature>
+			<Feature Name="Custom functions">
+				<Name>関数機能</Name>
+				<Description>A spreadsheet can always get more complicated</Description>
+			</Feature>
+			<Feature Name="Charts">
+				<Name>チャート図</Name>
+			</Feature>
+			<Feature Name="Presentation">
+				<Name>プレゼンテーション</Name>
+			</Feature>
+			<Feature Name="Vector graphics">
+				<Name>ベクターグラフィックス</Name>
+				<Description>Lines, boxes and circles, basically</Description>
+			</Feature>
+			<Feature Name="Animations">
+				<Name>アニメーション</Name>
+				<Description>What better way to make your presention seem cheesy</Description>
+			</Feature>
+			<Feature Name="Sound effects">
+				<Name>サウンドエフェクト</Name>
+				<Description>And this is our projected earnings for the next fiscal year *pew* *pew*</Description>
+			</Feature>
+			<Feature Name="Templates">
+				<Name>テンプレート</Name>
+			</Feature>
+			<Feature Name="Clipart">
+				<Name>クリップアート</Name>
+			</Feature>
+			<Feature Name="Scripting">
+				<Name>マクロ機能</Name>
+				<Description>Because you can never satisfy everyone</Description>
+			</Feature>
+			<Feature Name="Online backup">
+				<Name>オンライン バックアップ</Name>
+			</Feature>
+		</Features>
+		<Categories></Categories>
+	</Software>
+	<Software Name="CMS">
+		<Name>CMS</Name>
+		<Description>A Content Management System is mostly used for the very specific task of managing content</Description>
+		<Features>
+			<Feature Name="File management">
+				<Name>ファイル マネージメント</Name>
+			</Feature>
+			<Feature Name="Visualization tools">
+				<Name>画像処理 ツール</Name>
+			</Feature>
+			<Feature Name="WYSIWYG">
+				<Name>WYSIWYG</Name>
+				<Description>What You See Is probably What You Get</Description>
+			</Feature>
+			<Feature Name="Community">
+				<Name>コミュニティ</Name>
+				<Description>The internet needs more comment sections</Description>
+			</Feature>
+			<Feature Name="Widgets">
+				<Name>ウィジェット</Name>
+				<Description>Also known as social media buttons</Description>
+			</Feature>
+			<Feature Name="Themes">
+				<Name>テーマ</Name>
+			</Feature>
+			<Feature Name="GUI">
+				<Name>GUI</Name>
+				<Description>Graphical User Interface</Description>
+			</Feature>
+			<Feature Name="Bank integration">
+				<Name>口座管理</Name>
+			</Feature>
+			<Feature Name="Document generation">
+				<Name>文書生成</Name>
+				<Description>Invoices for everyone</Description>
+			</Feature>
+			<Feature Name="Statistics">
+				<Name>統計</Name>
+			</Feature>
+			<Feature Name="User hierarchy">
+				<Name>ユーザ管理</Name>
+			</Feature>
+			<Feature Name="Work delegation">
+				<Name>タスク管理</Name>
+				<Description>Alternatively, run around the office screaming tasks at people</Description>
+			</Feature>
+			<Feature Name="Synchronization">
+				<Name>同期機能</Name>
+				<Description>Or send floppy disk around once in a while</Description>
+			</Feature>
+		</Features>
+		<Categories>
+			<Category Name="Web Publishing">
+				<Name>Web 公開</Name>
+				<Description>To avoid forcing bloggers to do backend webprograming</Description>
+			</Category>
+			<Category Name="Financial">
+				<Name>金融</Name>
+				<Description>Help businesses keep track of their money</Description>
+			</Category>
+			<Category Name="Workflow">
+				<Name>ワークフロー</Name>
+				<Description>The virtual whiteboard</Description>
+			</Category>
+		</Categories>
+	</Software>
+	<Software Name="Antivirus">
+		<Name>ウィルス対策ソフト</Name>
+		<Description>Protecting computers from digital troublemakers since it became profitable to do so.</Description>
+		<Features>
+			<Feature Name="File scan">
+				<Name>ファイルスキャン</Name>
+			</Feature>
+			<Feature Name="User interface">
+				<Name>ユーザーインターフェース</Name>
+				<Description>Make it easy for the user to manage their virus handling</Description>
+			</Feature>
+			<Feature Name="Firewall">
+				<Name>ファイアウォール</Name>
+			</Feature>
+			<Feature Name="Background scan">
+				<Name>バックグラウンド スキャン</Name>
+				<Description>Scan for viruses in the background causing hilarious file locks randomly</Description>
+			</Feature>
+			<Feature Name="Mail scan">
+				<Name>メールスキャン</Name>
+				<Description>There's always room for enlargement</Description>
+			</Feature>
+			<Feature Name="Virus database">
+				<Name>ウィルスデータベース</Name>
+				<Description>Automagically keep your user's virus definitions up to date</Description>
+			</Feature>
+		</Features>
+		<Categories></Categories>
+	</Software>
+	<Software Name="Logistics Application">
+		<Name>論理アプリケーション</Name>
+		<Description></Description>
+		<Features>
+			<Feature Name="Commandline">
+				<Name>コマンドライン入力</Name>
+			</Feature>
+			<Feature Name="GUI">
+				<Name>GUI</Name>
+			</Feature>
+			<Feature Name="Database">
+				<Name>データベース</Name>
+			</Feature>
+			<Feature Name="Third-party integration">
+				<Name>Third-party integration</Name>
+			</Feature>
+		</Features>
+		<Categories></Categories>
+	</Software>
+	<Software Name="Website">
+		<Name>ウェブサイト</Name>
+		<Description></Description>
+		<Features>
+			<Feature Name="Static pages">
+				<Name>スタティック ウェブサイト</Name>
+			</Feature>
+			<Feature Name="Image gallery">
+				<Name>イメージ ギャラリー</Name>
+			</Feature>
+			<Feature Name="Dynamic pages">
+				<Name>ダイナミック ウェブサイト</Name>
+			</Feature>
+			<Feature Name="Store">
+				<Name>オンラインストア</Name>
+			</Feature>
+			<Feature Name="Database">
+				<Name>データベース</Name>
+			</Feature>
+		</Features>
+		<Categories></Categories>
+	</Software>
+	<Software Name="Game Assets">
+		<Name>ゲームアセット</Name>
+		<Description></Description>
+		<Features>
+			<Feature Name="2D art">
+				<Name>2Dアート</Name>
+			</Feature>
+			<Feature Name="User interface graphics">
+				<Name>UIグラフィック</Name>
+			</Feature>
+			<Feature Name="Sound effects">
+				<Name>サウンドエフェクト</Name>
+			</Feature>
+			<Feature Name="Music">
+				<Name>ミュージック</Name>
+			</Feature>
+			<Feature Name="Written Dialogue">
+				<Name>Written Dialogue</Name>
+			</Feature>
+			<Feature Name="3D models">
+				<Name>3Dモデル</Name>
+			</Feature>
+		</Features>
+		<Categories></Categories>
+	</Software>
+	<Software Name="Embedded System">
+		<Name>埋め込みシステム</Name>
+		<Description></Description>
+		<Features>
+			<Feature Name="Clock">
+				<Name>時計</Name>
+			</Feature>
+			<Feature Name="Thermostat">
+				<Name>サーモスタット</Name>
+			</Feature>
+			<Feature Name="Motor">
+				<Name>モーター</Name>
+			</Feature>
+			<Feature Name="User interface">
+				<Name>ユーザインタフェース</Name>
+			</Feature>
+			<Feature Name="GPS">
+				<Name>GPS</Name>
+			</Feature>
+			<Feature Name="Networking">
+				<Name>ネットワーク機器</Name>
+			</Feature>
+		</Features>
+		<Categories></Categories>
+	</Software>
+	<Feature Name="QA">
+		<Name>QA</Name>
+		<Description>Use Quality Assurance to release a more stable product or fix the bugs as your customers irritably stumble into them</Description>
+	</Feature>
+</Software>

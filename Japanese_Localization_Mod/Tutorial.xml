@@ -1,0 +1,366 @@
+<Tutorial>
+	<Message id="ALPHA WORK1">設計書はいよいよ開発段階へ進めることができます。
+
+アルファ版は３段階あります。まずは設計書からソフトウェアにするための「アルファ版作成」、工期が遅れた時の「遅延回収」、バグ修正のための「ベータ版作成」です。
+
+準備が出来たら「段階を進める」を押してください。未熟な段階で次に進めると、かえってライバルに差をつけれたり、損失を生みます。
+
+このチュートリアルは遅延回収段階に続きます。</Message>
+	<Message id="ALPHA WORK2">従業員がアルファ版作成中に引き起こした遅れを取り戻す「遅延回収」段階になりました。
+
+遅延回収が終わるのを待つか、ベータ版を押してください。
+
+遅延回収が終わる前にベータ版に進むとさらに特殊バグが追加されるので注意して下さい。
+
+「ベータ版作成」のチュートリアルに続きます。</Message>
+	<Message id="ALPHA WORK3">バグ修正が終わりました。特定できたバグの量は従業員の能力によります。
+
+「出荷する」ことが出来ますが、もし製品サポートをしている場合はバグを放置するとかえって仕事が増えます。
+
+これでチュートリアルは終わります。「終了する」を押してください。</Message>
+	<Message id="BUILD MODE1">「建築」ボタンを押して「建築モード」を始めましょう。</Message>
+	<Message id="BUILD MODE2">建築モード中はゲームを停止します。
+
+まずは部屋を作りましょう。「四角形の部屋を作成」ボタンを建築パネルから選んでください。
+
+「部屋を構築」ボタンを使って色々な形や１つの部屋を２つの部屋に区切ることが出来ます。</Message>
+	<Message id="BUILD MODE3">所有地の中の好きなところ押して、別のグリッド地点を押してください。新しい部屋が完成します。もちろん表示される費用を確認して下さいね。</Message>
+	<Message id="BUILD MODE4">グリッドに沿って部屋を作ることが出来ました。もし別の角度のグリッドを使用したい場合はこのパネルを使用して変更して下さい。例えば対角線の壁に沿ってテーブルを配置したいときに重宝します。
+
+準備が出来たら「続行」を押してください。</Message>
+	<Message id="BUILD MODE5">Ｑを押すと上階へ、Ｅを押すと下階へ移動できます。
+
+今度は窓やドアを追加してみましょう。どちらかのカテゴリを選択するか検索を使用します。
+	</Message>
+	<Message id="BUILD MODE6">従業員が暗い中で仕事をしないように十分な窓を設置しましょう。
+
+それぞれの部屋をクリックすると照明や環境、温度雑音の状態などチェックできます。</Message>
+	<Message id="BUILD MODE7">部屋や備品の色を変更することが出来ます。
+
+変更したいものを右クリックしてブラシのアイコンを押します。</Message>
+	<Message id="BUILD MODE8">一度に複数のものの色を変更することが出来ます。シフトを押しながら複数を選択して右クリックしてブラシのアイコンを押します。
+
+色ウインドウには現在しようされている色が提案されます。
+
+もしそのスタイルが気に入ったら、右クリックして「標準化する」を選ぶと、初期状態に設定できます。
+
+気に入った色が準備できたら「適用する」を押して、もし変更をしたくない場合はウィンドウを閉じます。</Message>
+	<Message id="BUILD MODE9">新しい部屋に備品を置いてみましょう。
+
+「備品設置」ボタンを押すか、”テーブル”を検索して選択します。</Message>
+	<Message id="BUILD MODE10">今度は椅子を追加してみます。椅子はテーブルの前にしか追加できません。
+
+椅子や備品は置いた後にアップグレードすることも出来ます。何階建てのビルの備品について１つ１つ行わずに１度に出来る簡単な方法があります。右クリックを押して「選択した備品を全て選択する」を使用します。そしてアップグレードをします。</Message>
+	<Message id="BUILD MODE11">最後にパソコンを追加します。追加したいパソコンを選択します。その後に置きたい場所でドラッグして方向を決定して離します。
+
+パソコンはテーブルの上かつ椅子の正面に置きましょう</Message>
+	<Message id="BUILD MODE12">テーブルをいくつか横に並べるとテーブルの上に何も置いていなければグループ化されます。そして会議に使用出来ます。テーブルがグループ化されているか確認するには１つテーブルを選択するとグループ化されているテーブルが青く表示されます。
+
+「続ける」を押して進んで下さい。</Message>
+	<Message id="BUILD MODE13">創設者であるあなたは寒さ疲労や空腹、用足しを我慢できますが、新しい従業員を雇う前に少なくとも１つ、冷蔵庫、コーヒーマシン、冷房、暖房、独立した化粧室を追加して下さい。
+
+「続ける」を押して進んで下さい。</Message>
+	<Message id="BUILD MODE14">次に部屋をチームに割り当ててみましょう。割り当てをすると他のチームはそこを使用せずに通過します。
+
+新しい部屋を右クリックして、矢印の円に似た「チーム切り替え」を選択します。ウインドウにある「ＣＯＲＥ」チームをクリックして選択します。</Message>
+	<Message id="BUILD MODE15">同様にチームに従業員を割り当てることを忘れないで下さい。従業員を右クリックし、「チームを変える」を選択します。または「人材管理」を押して変更も出来ます。もしチームが１つだけの場合は全ての従業員は自動的にそのチームに入ります。
+
+シフトキーを使用すると複数を選択できます。複数の部屋や複数の従業員を選択し、右クリックから操作メニューを出して指示を出せます。
+
+では少なくと２つ何かを選択してみて下さい。</Message>
+	<Message id="BUILD MODE16">もし２つの部屋を繋げたいときには、それらを選択して右クリックから「部屋を繋げる」を押します。
+
+では建築モードを終了しましょう。</Message>
+	<Message id="CONTRACTS1">「契約業務」をボタンをおしてウィンドウを開きます。</Message>
+	<Message id="CONTRACTS2">これが現在契約できるリストです。新しい業務は古い業務を終えると追加されます。
+
+契約業務は準備に前払い金が支払われ、納品後に大きな残金の支払いがあります。契約を破棄したり未修整のバグがあると大きな罰金があります。品質や納期を破ると支払いが減額されます。
+
+契約業務を参照して、健全で公正なブラックではない業務を受けましょう。</Message>
+	<Message id="CUSTOMIZATION1">ようこそカスタマイズ画面へ。チュートリアルを進めるときは「続ける」を抜けるときは「キャンセル」ボタンを押して下さい。</Message>
+	<Message id="CUSTOMIZATION2">まずはあなたの会社に名前を付けましょう。</Message>
+	<Message id="CUSTOMIZATION3">そして創業者のあなたの名前を付けましょう。</Message>
+	<Message id="CUSTOMIZATION4">次に性別へ決めましょう。</Message>
+	<Message id="CUSTOMIZATION5">これらのボタンを使用して横に見える創業者の外観を変えることが出来ます.
+
+左端のボタンを使って顔の輪郭、眉毛を。右端のボタンで肌や髪、アクセサリー、服装の色を変えられます。</Message>
+	<Message id="CUSTOMIZATION7">ここでは創業者の性格特性を選択できます。
+
+２つの特性を選択により創業者の社交性や学習能力、サボり癖そして社内関係に影響を与えます。</Message>
+	<Message id="CUSTOMIZATION8">ここでは仕事に影響するスキルポイントや専門分野を変更することが出来ます。
+
+専門分野の能力は制限されています。設計の能力が低いときは設計の特殊能力も低くなります。
+
+創業者はさらに教育することにより能力や専門分野を高めることが出来ます。</Message>
+	<Message id="CUSTOMIZATION9">You are now done customizing your founder. Let's begin choosing the rules of the game!</Message>
+	<Message id="CUSTOMIZATION10">ここからMODを導入することが出来ます。大げさに言うとずっと遊べます。
+
+もちろんMODを共有して遊ぶことも出来ますし、MODを導入しないで遊ぶことも出来ます。
+
+いくつかのMODはシナリオを追加します。シナリオを選択する前にいくつか別のものを導入する必要があります。</Message>
+	<Message id="CUSTOMIZATION11">シナリオを選択してみましょう。シナリオは準備金や創設年、目標を設定します。シミュレーションしたライバル会社か事前想定したライバル会社かまたは両方を使用するか選べます。</Message>
+	<Message id="CUSTOMIZATION12">ここから立地を変更することが出来ます。
+
+標準は森林です。ツンドラは一年中寒く、砂漠は一年中暑いです。市内は既存の高層ビルや駐車場交通網があります。</Message>
+	<Message id="CUSTOMIZATION13">難易度はどの時点からでも設定から変更できます。難易度は従業員の給与や有効性、ライバル会社の能力などに影響を与えます。</Message>
+	<Message id="CUSTOMIZATION14">通常は１日の経過を１か月とします。退屈しないように安定したペースです。
+
+もしこのペースがちょっと早く感じたり、給与の支払いと稼ぐお金を一組にして遊んでみたいときは、１か月の日数を増やすことが出来ます。
+
+比較的に遅い時間経過なので注意して下さい。この設定は後で変更出来ません。</Message>
+	<Message id="DESIGN DOCUMENT1">Start the tutorial by pressing the "Develop software" button to bring up the design document.</Message>
+	<Message id="DESIGN DOCUMENT2">Welcome to the design document, the heart of Software Inc.
+
+Start by picking a software type.
+
+Click continue to to advance the tutorial.</Message>
+	<Message id="DESIGN DOCUMENT3">If applicable, you can pick a software category. Each category for a software type has different development times, popularity, audience retention, features and it's own target audience.</Message>
+	<Message id="DESIGN DOCUMENT4">Then pick a name. You can either write one yourself or press the "Name:" button to have it generated.</Message>
+	<Message id="DESIGN DOCUMENT5">You can also pick a price. If you leave the price field alone, the best price will be picked based on the software and features you've chosen. You can click the Price button to reset the price.</Message>
+	<Message id="DESIGN DOCUMENT6">Now you must pick features for your product. Each feature takes time to develop and balances innovation, stability and usability, so pick carefully.
+
+The features you can pick depend on which software dependencies and operating systems you chose. When you select features, dependencies and operating systems will be filtered accordingly, this also works the other way around.
+
+Some features are artistic in nature and you will need artists on the team to get the best result.</Message>
+	<Message id="DESIGN DOCUMENT7">You can use these buttons to quickly select features. Note that it might not always be best to just select all features.</Message>
+	<Message id="DESIGN DOCUMENT8">Your product can depend on other software types. As an example, you will need a visual tool, like an image editor, to make a game with 2D graphics or you won't be able to make the graphics for it.
+
+The features you pick will determine what type of software you need to develop your product and the quality of the dependencies will affect the quality of your product.</Message>
+	<Message id="DESIGN DOCUMENT9">Pick a software you want to use from the list by selecting it and pressing "OK".
+
+You can filter software by features, the features you can pick for your software will sometimes depend on the features of the software you pick here.
+
+Take special note of quality and license costs. Your software's quality will depend on the quality of the software you pick and you will have to pay the license fees.</Message>
+	<Message id="DESIGN DOCUMENT10">Some software runs on an operating system and some software can only run on operating systems that the software it is built on can run on, e.g. Games can only run on the operating systems that its Game Engine can run on. And as before, your features might also depend on which operating systems you choose to support.
+
+You can pick your operating systems here. If nothing is shown, the software type you picked is not operating system dependent.
+
+Press "Continue" to carry on.</Message>
+	<Message id="DESIGN DOCUMENT11">You can make your software a sequel to a product you made previously or which you have bought from another company. You do this by clicking this button and selecting a product as you did with operating systems and software needs.
+
+Making a sequel will give a marketing boost and change your fans' expectations depending on the success of its predecessors.
+
+Features that were implemented for the predecessor will be highlighted in orange in the feature panel, these features will be developed faster when you develop your product.</Message>
+	<Message id="DESIGN DOCUMENT12">You can also make your software in-house, which means you won't sell it to other companies.
+
+You can use this to develop top quality game engines and only use them for your own games, to gain an advantage over other companies.
+
+If this is not visible, it means the software you picked is meant for an audience and it wouldn't make sense to keep it in-house.</Message>
+	<Message id="DESIGN DOCUMENT13">If your software depends on server functionality, like an MMO, you will need to pick a server from this list.
+
+If your servers cannot handle the load this software will generate, they will quickly burn out and you will lose your reputation.</Message>
+	<Message id="DESIGN DOCUMENT14">Finally, you can pick a source control server from this list to support the development.
+
+Using source control will decrease bugs and speed up development, if your server can handle the load.</Message>
+	<Message id="DESIGN DOCUMENT15">After you've went through the phases of development and you're ready to release your product, remember to see if any popular products has just been released in the same software category as yours.
+
+You can also check out upcoming releases from your competitors to make sure a large company won't outshine your product.
+
+Timing is everything when you're just starting out!</Message>
+	<Message id="DESIGN DOCUMENT16">Before you finish, make sure you inspect the information in this box. This outlines everything you need to develop this product.
+
+Take special note of consumer reach. Consumer reach is how many people can potentially purchase the product as of right now, this number might decrease or increase as you develop the product. For software that depend on operating systems, it will be limited by how many people are currently using the operating system and it's successors.
+
+The suggested team size is for both the design and alpha phase of development, where the design phase is worked on by designers and the alpha phase should be split between programmers and artists.
+
+Having more than the suggested employees on the development teams will not increase development speed, but will in some cases reduce it instead.</Message>
+	<Message id="DESIGN WORK1">Design work items are worked on by designers or employees in "Any role" until you promote the work item to alpha.
+
+Press "continue" to advance the tutorial.</Message>
+	<Message id="DESIGN WORK2">Begin by assigning the work item to a team, if you haven't already. Hover over the bottom area of the work item to bring up the action menu and select "Assign".
+
+You can also unassign teams to pause work.</Message>
+	<Message id="DESIGN WORK3">Now employees on the team you have assigned will begin work, if they have a computer to sit at.
+
+The work item will slowly fill up as it progresses. For design documents it is important to stop when the task is completely green, so you don't lose quality. If you wait too long, inexperienced designers will begin over-engineering.</Message>
+	<Message id="DESIGN WORK4">You can click the clock icon to start a mini game, which will add extra quality to the design, but time is fast forwarded while you play.
+
+You can use mini games to speed work along, but you should only use this in the starting phases of your company, as the quality addition does not scale with project complexity and you will have other things to attend to later on.
+
+Click "Develop" in the Action menu when the progress bar is filled to begin alpha development.
+
+Click the title bar to collapse the work item.
+
+Click "End" to finish the tutorial.
+
+Click buttons to improve life.</Message>
+	<Message id="DISTRIBUTION1">「流通チャンネル」ボタンを押して流通ウィンドウを開きましょう。</Message>
+	<Message id="DISTRIBUTION2">あなたの製品を販売するためには消費者へ届ける代理店が必要になります。
+
+大きく分けて２つのタイプの代理店があります。１つはオンラインショップ、もう１つは実店舗です。オンラインショップはあなたの製品の販売金額から手数料だけが差し引かれます。実店舗では宣伝して販売拡大してくれますが前払い金が必要になります。
+
+ゲーム開始時点では全てのオンラインショップと契約してます。表グラフを確認して流通経路を選ぶことが出来ます。
+
+「続ける」を押してチュートリアルを進めて下さい。</Message>
+	<Message id="DISTRIBUTION3">自前のオンラインショップを開くことも出来ます。他の会社の製品も扱えます。
+
+とても堅牢なサーバーをいくつも用意しないと、情報流出によりとても非難をされます。
+
+「終わる」を押してチュートリアルを終了して下さい。</Message>
+	<Message id="EDUCATION1">Begin the tutorial by selecting one or more of your employees, right click anywhere on the screen to bring up the action menu, and then pick "Educate".</Message>
+	<Message id="EDUCATION2">This is the education window. You can use education to make your employee better at their jobs or enable responsibilities for your leaders.
+
+You can choose to either educate your employee in a skill, specialization or you can enable HR or project management by checking one of the options in the bottom of the education window.</Message>
+	<Message id="EDUCATION3">Start by choosing the amount of months to educate your employees. Note that educational courses are considered paid leave, so you will also be paying salaries on top of course expenses.
+
+There is a limit to the skills and specializations of your employees, so if you pick 3 months of courses for an employee with a high skilll level, you'll be throwing money out the window.</Message>
+	<Message id="EDUCATION4">Then pick what role you want to educate your employees in.</Message>
+	<Message id="EDUCATION5">If you picked Designer, Programmer or Artist, you should pick what specialization you want them to improve in. Click "Start education" when you are ready to send your employee off.</Message>
+	<Message id="EMPLOYEES1">「従業員管理」ボタンを押して従業員を管理しましょう。</Message>
+	<Message id="EMPLOYEES2">全従業員の詳細リストです。
+
+この上のオプションからさらに状況を確認できます。</Message>
+	<Message id="EMPLOYEES3">このリストから従業員を選択すると、ゲーム画面でも選択されます。そしてウィンドウの下から能力の詳細も確認できます。
+
+１人従業員を選択してみましょう。</Message>
+	<Message id="EMPLOYEES4">あなたはシフトを押しながら複数の従業員を選択することも出来ます。
+
+ではそのまま右クリックを押して「チームを変える」を選んで、「ＣＯＲＥ」チームを選んでみましょう。</Message>
+	<Message id="EMPLOYEES5">レンチみたいなアイコンのある「役割を変更する」ボタンを押してみましょう。</Message>
+	<Message id="EMPLOYEES6">「役割変更」ウィンドウから役割を指定します。「全役割」を設定すると従業員は全ての仕事を引き受けます。
+
+ディレクターは１つのチームに１人だけです。覚えておいて下さい。
+
+「役割変更」ウィンドウを閉じて「続ける」を押してチュートリアルを進めましょう。</Message>
+	<Message id="EMPLOYEES7">従業員を選択して、右クリックを押して人が１人立っているアイコンの「従業員の詳細」ボタンを押して下さい。</Message>
+	<Message id="EMPLOYEES8">ここでは従業員の詳細な状況を確認できます。
+
+左上には従業員の性格が、その下には役割とスキルが表示されています。ここからクリックして役割を変更することもできます。</Message>
+	<Message id="EMPLOYEES9">左下には専門分野の能力が表示されています。他の役割に付いたときにどのような働きをするか確認しながら、調整しましょう。</Message>
+	<Message id="EMPLOYEES10">右上には従業員の特徴が表示されています。これらの特徴は性格に影響を受けています。
+
+適応力は学習能力やソフト作成能力を左右し、社交性は研究やチームの雰囲気を左右し、勤勉さは能力の習得や過労を左右します。</Message>
+	<Message id="EMPLOYEES11">最後に、右下には従業員の最近の感想が表示されています。快適な職場の作り方のヒントはここにあるかも知れません。</Message>
+	<Message id="EMPLOYEES12">次に仕事を始めるために
+「契約業務」ボタンを押してみましょう。</Message>
+	<Message id="HIRING1">Start by opening the hire window</Message>
+	<Message id="HIRING2">Before you can hire anyone, you need to put out a search for employees. Start by choosing which role your new employee should be good at.</Message>
+	<Message id="HIRING3">If you've picked a programmer, artist or designer, you should also pick a specialization you want them to be good at.</Message>
+	<Message id="HIRING4">Then you need to decide how much money you want to give your potential employee per month. It is very important that you make sure you have enough money to actually pay them or you'll go bankrupt very quickly.
+
+The quality of applicants will depend on how high you set the salary and the reputation of your company.</Message>
+	<Message id="HIRING5">You can also choose to interview employees in specific areas upfront. You can wait to interview employees before you hire them, but that might be more expensive, depending on how many you intend to hire.
+
+Each interview option will double the search price.</Message>
+	<Message id="HIRING6">Finally, you need to decide how much money you want to spend searching for applicants. The more money you spend, the more potential employees you will reach. You're guaranteed to receive at least one application.
+
+Press "Begin looking" to begin searching.</Message>
+	<Message id="HIRING7">This is a list of employees that applied to the open position in your company.</Message>
+	<Message id="HIRING8">You can select employees to inspect them and press the "Hire" button to hire them. Employees are expensive and you should probably wait before you hire any if you are just starting out.
+
+Try selecting an employee on the list.</Message>
+	<Message id="HIRING9">You can easily navigate the applications by using the arrow keys on your keyboard and pressing enter to hire.
+
+When you are done, simply close the window.</Message>
+	<Message id="HR1">To enable HR management open the team window</Message>
+	<Message id="HR2">With the team window open, scroll the team list all the way to the right and click "Automation" in the list, on the team you wish to enable HR for.</Message>
+	<Message id="HR3">Go over the HR settings and check "Enable HR management" when you are done. The Budget might need to be increased once in a while, so good employees don't seek out new job opportunities.
+
+Close the automation window to finish this tutorial.</Message>
+	<Message id="INSURANCE1">「保険」ボタンを押してウィンドウを開いて下さい。</Message>
+	<Message id="INSURANCE2">このスライダーを使用してお金を預けることが出来ます。
+
+保険の積立金は年間５％の利息（上限あり）が付くので預けるのに最適です。
+
+自分の年齢に応じた保険によって従業員の満足度に影響を与えるので、無理な積み増しや撤回は気を付けましょう。</Message>
+	<Message id="INSURANCE3">従業員は退職したり残念ながら死亡したり、病気になったりします。 そういう場合にこの保険口座からお金を受け取ることになりますので、多少の減額のリスクはあります。
+
+どのような支払いが行われたのかこのパネルで確認できます。</Message>
+	<Message id="INSURANCE4">現実のあなたの保険と同じ部分があるかも知れません。それでは「終了」を押してウィンドウを閉じて下さい。 </Message>
+	<Message id="MARKETING1">広報活動はゲームにおいて重要です。広報活動なしに製品は単純に売れません。
+
+製品のリストの右端にある「広報活動」ボタンを押してリリースウィンドウを開いてキャンペーンを始めることが出来ます。</Message>
+	<Message id="MARKETING2">これが広報ウィンドウです。広報活動はリリース前かリリース後に出来ます。
+
+好きな報道機関を選んでキャンペーンを開始します。経費のかからないインターネットを使うとキャンペーンはあまり広範囲に届きません。全ての報道機関を活用することで全ての人にキャンペーンは届けられます。
+
+多くの報道機関を選択すると、多くの費用が掛かるでしょう。</Message>
+	<Message id="MARKETING3">今度は広報活動の金額を調整してみましょう。多くのお金を費やせば、大きな効果がもたらされます。
+
+金額は常に口座から引き落とされます。引き落とされる金額は活動の努力に依りますが、誰も広報活動をしなければ、お金は引き落とされません。
+
+「キャンペーン開始」を押して宣伝を開始しましょう。</Message>
+	<Message id="MARKETING4">宣伝を開始すると右側に作業項目として表示されます。チームを指定することを忘れないで下さい。指定をしないと誰も作業を始めません。
+
+活動項目はその日出来る広報活動の可能性がいっぱいになるまで目指します。あなたに本日のどのくらいの額が使用されているか伝えます。
+
+「終了する」を押してチュートリアルを終了して下さい。</Message>
+	<Message id="PROJECT MANAGEMENT1">「チーム管理」を押してウィンドウを開きましょう。</Message>
+	<Message id="PROJECT MANAGEMENT2">右側にスクロールすると「自動」というボタンがあります。ここを使用することでチームの活動を管理できます。</Message>
+	<Message id="PROJECT MANAGEMENT3">まずは開発するソフトウェアの設定をし、完了したら「プロジェクト管理できる」にチェックを付けて下さい。さまざまな業務を適正にチームに割り振らない場合、全ての業務が現在のチームに委託され従業員が過労します。設計段階はいつも現在のチームに委託されますから、プランナーは常駐させましょう。
+
+自動の画面を閉じてチュートリアルを終了させて下さい。</Message>
+	<Message id="RESEARCH1">「開発」から「研究」を押して、チュートリアルを開始しましょう。</Message>
+	<Message id="RESEARCH2">このパネルにソフトウェアのリストから研究できる項目があれば、研究の機能をソフトウェアをクリックして確認して下さい。
+
+「続ける」を押して進んで下さい。</Message>
+	<Message id="RESEARCH3">ソフトウェアの種類において研究可能な機能です。すでに研究済みの機能も確認できます。これから解放される機能も何年ころになるか確認できます。
+
+どの機能を研究するか選択し、研究をクリックして担当するチームを選択します。</Message>
+	<Message id="RESEARCH4">機能を研究しているときは、その機能を使用する全ての企業が売り上げに基づいて使用料を支払わなければなりません。
+
+特許目当てで傾いた企業を買収したら、期限切れ寸前だったということもあります。注意して下さい。</Message>
+	<Message id="SERVER1">ワイヤのボタンを押すことでサーバーの配線を表示できます。
+
+このモードではサーバーとサーバーをクリックして接続、または切断をすることが出来ます。
+
+サーバーが複数接続されているときはそのうち一つはグループのためのメインサーバーとなって配線を処理します。サーバーグループは全ての負担を分担します。</Message>
+	<Message id="SERVER2">建築モードを終了して、「サーバー」ボタンを押してウィンドウを開いて下さい。</Message>
+	<Message id="SERVER3">ここからはサーバーを管理して過熱していないか確認することが出来ます。
+
+サーバーグループを選択した場合、実行中のプロセスのリストを見ることが出来ます。
+
+「処理を受け渡す」を押してプロセスをほかのサーバーに受け渡すことが出来ます。</Message>
+	<Message id="SERVER4">全てのプロセスを完璧にこなしていたサーバーグループを破棄した場合、甚大な被害が出ます。
+
+「サポートされていない工程」をクリックして全てのプロセスをほかのサーバーに受け渡しましょう。
+
+「終了」を押してチュートリアルを終了して下さい。</Message>
+	<Message id="STAFF1">「派遣スタッフ管理」を押してチュートリアルを始めましょう。</Message>
+	<Message id="STAFF2">「派遣スタッフ」ウィンドウです。臨時か常駐のどちらも、現在の利用しているスタッフがこのリストに表示されます。</Message>
+	<Message id="STAFF3">各種常駐スタッフにカーソルを合わせると、月給が表示されます。そして雇い入れることができます。解雇されるまで一日一回働きに来ます。
+
+リストの+-ボタンから勤務時間を変更することも出来ます。</Message>
+	<Message id="STAFF4">各種臨時スタッフも雇うことが出来ます。呼ばれたら仕事が終わるまで滞在し終わったら帰ります。「臨時○○を呼ぶ」ボタンにカーソルを合わせると雇用条件を表示することができます。
+
+「終了」ボタンを押してチュートリアルを終了して下さい。</Message>
+	<Message id="STOCKS1">「会社」ボタンを押すと右上に株式のリストが表示されます。
+
+自社株が最初に表示されて、その自社株か他の全ての株式を買うと、買収された会社はＩＰと特許を差し出します。
+
+会社が倒産した場合は大株主にその全ての資産が渡ります。</Message>
+	<Message id="STOCKS2">あなたが他の会社の株式を所有する場合、毎月、余剰金を24で割った金額の配当金が支払われます。
+
+会社の履歴を見ることで動向を予測して、安い時に買って高い時に売ることも出来ます。</Message>
+	<Message id="STOCKS3">ウィンドウの下部中央には会社の特許が表示されます。開発中に利用すると使用料が発生し支払う必要がありますが、もしその会社の株式を所有している場合は支払う必要がありません。</Message>
+	<Message id="SUPPORT WORK1">When you release a new piece of software it will spawn a support work item. This work item will continually generate bugs that need to be fixed.
+
+Make sure to quickly assign a team to this work item or it will affect your company's reputation.</Message>
+	<Message id="SUPPORT WORK2">The work item will fill up as bugs are fixed, the blue line represents how many bugs have been reported so far. When the item is filled, the work is over and your software is bug free... In theory.</Message>
+	<Message id="WELCOME1">ようこそSoftware Inc.へ
+
+タイトルバーを押しっぱなしにしてこのウィンドウを移動できます。
+
+「続ける」を押して進んで下さい。</Message>
+	<Message id="WELCOME2">カメラの移動はＷＡＳＤのキーを押すか、エッジスクロール（オプションで有効化して）を使用します。
+
+カメラの角度はマウスのスクロールボタンを押しながら動かすか、矢印キーを使用します。
+
+カメラのズームはスクロールボタンの回転か。プラス、マイナスキーを使用します。</Message>
+	<Message id="WELCOME3">それらのキーボード設定はＥＳＣキーを押すか、右下の「オプション」をクリックして変更できます。</Message>
+	<Message id="WELCOME4">このバーで現在の銀行の状態を確認出来ます。</Message>
+	<Message id="WELCOME5">ここのバーには、会社の評判を星の数で表してファンの人数も表示されます。
+
+このバーにカーソルを置くと市場の認知度が確認出来ます。良い製品を作り続けて販売することによって認知度を獲得し、多くの製品を販売しましょう。</Message>
+	<Message id="WELCOME6">このバーにはお金の収支が表示されます。
+
+初日のチュートリアルだと表示されません。ここをクリックすると銀行の詳細を示したウィンドウを表示します。</Message>
+	<Message id="WELCOME7">ここで時間の速度を調整できます。キーボードの0123キーでも操作できますし、設定から変更もできます。</Message>
+	<Message id="WELCOME8">重要な通知はここに表示されます。過去の通知を表示するには下の部分をドラッグして引っ張ります。
+
+いくつかの通知にはクリックすると、その被写体にカメラを移動できるものもあります。右クリックで通知を削除出来ます。</Message>
+	<Message id="WELCOME9">全ての操作ボタンは左下にあります。</Message>
+	<Message id="WELCOME10">確認！任意のチュートリアルは設定のオプションからいつも再生できます。
+
+準備が出来たら、次は建築モードを使って会社を建てましょう。</Message>
+</Tutorial>

@@ -1,0 +1,1823 @@
+<UI>
+	<Months>
+		<Item Name="January">1月</Item>
+		<Item Name="February">2月</Item>
+		<Item Name="March">3月</Item>
+		<Item Name="April">4月</Item>
+		<Item Name="May">5月</Item>
+		<Item Name="June">6月</Item>
+		<Item Name="July">7月</Item>
+		<Item Name="August">8月</Item>
+		<Item Name="September">9月</Item>
+		<Item Name="October">10月</Item>
+		<Item Name="November">11月</Item>
+		<Item Name="December">12月</Item>
+	</Months>
+	<MainMenu>
+		<Item Name="New Game">新規ゲーム</Item>
+		<Item Name="Options">オプション</Item>
+		<Item Name="Continue">ゲームを再開</Item>
+		<Item Name="Load Game">ゲームをロード</Item>
+		<Item Name="Quit">ゲームを終了</Item>
+		<Item Name="Credits">クレジット</Item>
+	</MainMenu>
+	<Customization>
+		<Item Name="Company Name Here">会社名を入力して下さい</Item>
+		<Item Name="Founder">創業者</Item>
+		<Item Name="FounderName">田中一郎</Item>
+		<Item Name="Colors">色</Item>
+		<Item Name="Gender">性別</Item>
+		<Item Name="Male">男性</Item>
+		<Item Name="Female">女性</Item>
+		<Item Name="Style">スタイル</Item>
+		<Item Name="Hair">髪型</Item>
+		<Item Name="Skin">肌の色</Item>
+		<Item Name="Face">顔</Item>
+		<Item Name="Upper body">上着</Item>
+		<Item Name="Lower body">パンツ</Item>
+		<Item Name="Personality">個性</Item>
+		<Item Name="Mods">Mods</Item>
+		<Item Name="Scenario">シナリオ</Item>
+		<Item Name="Freeplay">フリープレイ</Item>
+		<Item Name="Starting money">開始時の予算</Item>
+		<Item Name="Starting year">開始時の時代</Item>
+		<Item Name="Simulation enabled">シミュレーションを許可する</Item>
+		<Item Name="Goals">ゲームクリアの目標金額</Item>
+		<Item Name="Start game">ゲーム開始</Item>
+	</Customization>
+	<GenericDialog>
+		<Item Name="OK">了解</Item>
+		<Item Name="Cancel">キャンセル</Item>
+		<Item Name="Yes">はい</Item>
+		<Item Name="No">いいえ</Item>
+		<Item Name="Error">エラー</Item>
+	</GenericDialog>
+	<MainPanel>
+		<Item Name="HR">HR</Item>
+		<Item Name="Finance">ファイナンス</Item>
+		<Item Name="Marketplace">市場</Item>
+		<Item Name="MainDevSoft">ソフトウェア開発</Item>
+		<Item Name="MainDevSoftDesc">ソフトウェアの設計を開始します。独自IPの開発は多大なコストがかかります。</Item>
+		<Item Name="MainPlayerRelease">自社製品</Item>
+		<Item Name="MainPlayerReleaseDesc">自社製品の一覧を表示します</Item>
+		<Item Name="MainContract">受注開発</Item>
+		<Item Name="MainContractDesc">受注開発をします。受注開発は低コストで利益を得るのにはよい手段です。</Item>
+		<Item Name="MainServer">サーバー管理</Item>
+		<Item Name="MainServerDesc">サーバの管理やリリースをします。</Item>
+		<Item Name="MainEmployees">従業員管理</Item>
+		<Item Name="MainEmployeesDesc">従業員の一覧を表示します。</Item>
+		<Item Name="MainHire">雇用</Item>
+		<Item Name="MainHireDesc">面接や調査を行い、従業員を雇います。</Item>
+		<Item Name="MainTeam">チーム管理</Item>
+		<Item Name="MainTeamDesc">チーム単位での勤務時間や役割などを調整します。</Item>
+		<Item Name="MainStaff">スタッフ管理</Item>
+		<Item Name="MainStaffDesc">メンテナンスや掃除などのスタッフを雇用、解雇、臨時雇用します。</Item>
+		<Item Name="MainInsurance">積立保険</Item>
+		<Item Name="MainInsuranceDesc">積立保険があることで、従業員は安心して働くことができます。</Item>
+		<Item Name="MainStock">株式</Item>
+		<Item Name="MainStockDesc">株式を発行したり、購入したりすることができます。資金を調達することや、企業買収なども行えます。</Item>
+		<Item Name="MainLoan">債権</Item>
+		<Item Name="MainLoanDesc">ご利用は計画的に。</Item>
+		<Item Name="MainRelease">全ソフトウェア</Item>
+		<Item Name="MainReleaseDesc">市場で流通しているすべてのソフトウェアを一覧で表示します。</Item>
+		<Item Name="MainCompany">全企業</Item>
+		<Item Name="MainCompanyDesc">企業の詳細情報を表示します。</Item>
+		<Item Name="MainNews">ソフトウェアタイムズを読む</Item>
+		<Item Name="MainNewsDesc">ソフトウェア業界の最新ニュースを確認しましょう。</Item>
+		<Item Name="MainDistribution">流通チャンネル</Item>
+		<Item Name="MainDistributionDesc">自社製品の流通チャンネルを確認します。</Item>
+		<Item Name="Settings">設定</Item>
+		<Item Name="LowerWalls">壁表示</Item>
+		<Item Name="LowerWallsDesc">壁の表示/非表示を切り替えます。</Item>
+		<Item Name="HideLamps">光源表示</Item>
+		<Item Name="HideLampsDesc">光源の表示/非表示を切り替えます。</Item>
+		<Item Name="RoomLabels">部屋ラベル表示</Item>
+		<Item Name="RoomLabelsDesc">部屋ラベルの表示/非表示を切り替えます。部屋毎にさまざまな制限を設定可能です。</Item>
+		<Item Name="WireModeDesc">サーバの接続を管理します。</Item>
+		<Item Name="Dataoverlay">データ可視化</Item>
+		<Item Name="DataoverlayDesc">部屋情報の表示/非表示を切り替えます。さまざまな情報が表示されます。</Item>
+		<Item Name="BuildMode">建築モード</Item>
+		<Item Name="BuildModeDesc">建築モードの有効/無効を切り替えます。建築モードでは、部屋や設備だけではなく。屋外の道路や駐車場も設置できます。</Item>
+		<Item Name="Monthly profits">月次報告</Item>
+		<Item Name="SkipTime">翌日へスキップ</Item>
+		<Item Name="SkipTimeDesc">従業員やスタッフが誰もいない場合は、誰かが出社するまで時間をスキップできます。</Item>
+		<Item Name="Contruct">建築</Item>
+		<Item Name="ContructHint">壁、ドア、窓、エレベータなどを設置して部屋を建築することができます。</Item>
+		<Item Name="Furnish">家具/設備</Item>
+		<Item Name="FurnishHint">家具や設備を設置することができます。</Item>
+		<Item Name="Roads">道路/駐車場</Item>
+		<Item Name="RoadsHint">従業員やスタッフが通勤に利用するための、道路や駐車場を設置することができます。</Item>
+	</MainPanel>
+	<Columns>
+		<Item Name="Name">名前</Item>
+		<Item Name="Role">役割</Item>
+		<Item Name="Status">状態</Item>
+		<Item Name="Team">チーム</Item>
+		<Item Name="Effectiveness">有効性</Item>
+		<Item Name="Team Compatibility">チームとの相性</Item>
+		<Item Name="Satisfaction">満足度</Item>
+		<Item Name="Aptitude">適正</Item>
+		<Item Name="Leadership">リーダーシップ</Item>
+		<Item Name="Diligence">勤勉</Item>
+		<Item Name="Years">勤続年数</Item>
+		<Item Name="Lead skill">リーダースキル</Item>
+		<Item Name="Code skill">プログラマスキル</Item>
+		<Item Name="Design skill">ソフトウェア設計スキル</Item>
+		<Item Name="Art skill">アートスキル</Item>
+		<Item Name="Marketing skill">マーケティングスキル</Item>
+		<Item Name="Tier">層</Item>
+		<Item Name="Scope">規模</Item>
+		<Item Name="Company">会社</Item>
+		<Item Name="Release">リリース</Item>
+		<Item Name="Quality">品質</Item>
+		<Item Name="Popularity">知名度</Item>
+		<Item Name="License">ライセンス</Item>
+		<Item Name="Profit">純利益</Item>
+		<Item Name="Open source">オープンソース</Item>
+		<Item Name="Loss">損失</Item>
+		<Item Name="Market">マーケット</Item>
+		<Item Name="Details">詳細</Item>
+		<Item Name="Worth">価値</Item>
+		<Item Name="Reputation">評判</Item>
+		<Item Name="Bankrupt">破産</Item>
+		<Item Name="Founded">設立</Item>
+		<Item Name="Products">製品</Item>
+		<Item Name="Chart">チャート</Item>
+		<Item Name="Stock">株式</Item>
+		<Item Name="Owner">オーナー</Item>
+		<Item Name="Share">シェア</Item>
+		<Item Name="Change">変更</Item>
+		<Item Name="Cost">コスト</Item>
+		<Item Name="Sell">売却</Item>
+		<Item Name="Buy">購入</Item>
+		<Item Name="Count">数</Item>
+		<Item Name="Compatibility">チームとの相性</Item>
+		<Item Name="Work">作業</Item>
+		<Item Name="Employees">従業員</Item>
+		<Item Name="Arrival">出勤</Item>
+		<Item Name="+">+</Item>
+		<Item Name="-">-</Item>
+		<Item Name="Departure">退勤</Item>
+		<Item Name="Disband">解散</Item>
+		<Item Name="Automation">オート</Item>
+		<Item Name="Type">タイプ</Item>
+		<Item Name="Dismiss">抜ける</Item>
+		<Item Name="Progress">進捗</Item>
+		<Item Name="Contract">契約</Item>
+		<Item Name="Months">人月</Item>
+		<Item Name="Income">契約金</Item>
+		<Item Name="Total">合計</Item>
+		<Item Name="Monthly">月間</Item>
+		<Item Name="Payout">支出</Item>
+		<Item Name="Age">年齢</Item>
+		<Item Name="Score">スコア</Item>
+		<Item Name="Salary">月給</Item>
+		<Item Name="Hire">雇用</Item>
+		<Item Name="Game date">ゲーム内時刻</Item>
+		<Item Name="Date">セーブ時刻</Item>
+		<Item Name="Money">予算</Item>
+		<Item Name="Enabled">実行中</Item>
+		<Item Name="Toggle">切り替え</Item>
+		<Item Name="Active">アクティブ</Item>
+		<Item Name="Physical store">実店舗</Item>
+		<Item Name="Release cost">リリース費用</Item>
+		<Item Name="Revenue cut">Revenue cut</Item>
+		<Item Name="Contracts">Contracts</Item>
+		<Item Name="Power">出力</Item>
+		<Item Name="Server count">接続サーバ数</Item>
+		<Item Name="Required power">必要出力</Item>
+	</Columns>
+	<WindowTitles>
+		<Item Name="Design document">Design document</Item>
+		<Item Name="Finances">ファイナンス</Item>
+		<Item Name="Companies">企業情報</Item>
+		<Item Name="Contract work">受注開発</Item>
+		<Item Name="Teams">チーム</Item>
+		<Item Name="Look for hire">求人面接</Item>
+		<Item Name="Distribution channels">オンライン配信</Item>
+		<Item Name="Wage negotiations">Wage negotiations</Item>
+		<Item Name="Stocks">株式</Item>
+		<Item Name="Insurance">積立保険</Item>
+		<Item Name="Save games">セーブ</Item>
+		<Item Name="Staff">スタッフ</Item>
+		<Item Name="Marketing">マーケティング</Item>
+		<Item Name="Servers">サーバ</Item>
+		<Item Name="Education">研修</Item>
+		<Item Name="Materials">装飾</Item>
+		<Item Name="EULA">使用許諾契約書</Item>
+	</WindowTitles>
+	<DesignWindow>
+		<Item Name="Action">実行</Item>
+		<Item Name="In-house">社内</Item>
+		<Item Name="Add">追加</Item>
+		<Item Name="Remove">削除</Item>
+		<Item Name="Nothing selected">未選択</Item>
+		<Item Name="Server">サーバ</Item>
+		<Item Name="SCM">SCM</Item>
+		<Item Name="SCMLong">ソースコード管理システム</Item>
+		<Item Name="SCMDesc">ソースコード管理システムを利用することにより、バグ管理や開発の効率化を図ることが可能です。</Item>
+		<Item Name="Information">情報</Item>
+		<Item Name="Dependencies">依存関係</Item>
+		<Item Name="Operating system">OS</Item>
+		<Item Name="Specializations">製品構成</Item>
+		<Item Name="Develop">開発</Item>
+		<Item Name="NoIP">新規製品</Item>
+		<Item Name="SelectIPButton">ベース製品</Item>
+		<Item Name="IPButtonTip">既存の自社製品の後継ソフトウェアを開発します。</Item>
+		<Item Name="NameGenTip">ここをクリックしてソフトウェアに名前を付けましょう。</Item>
+		<Item Name="OpenSourceTip">この製品をオープンソース・ライセンスとして提供します。</Item>
+		<Item Name="InHouseTip">この製品のライセンスは自社で独占します。</Item>
+		<Item Name="StandardProductName">製品名</Item>
+		<Item Name="DevTime1">1年未満</Item>
+		<Item Name="DevTime2">1年以上</Item>
+		<Item Name="DevTime3">約 {0} 年</Item>
+		<Item Name="BalanceAmount1">最低</Item>
+		<Item Name="BalanceAmount2">低</Item>
+		<Item Name="BalanceAmount3">中</Item>
+		<Item Name="BalanceAmount4">高</Item>
+		<Item Name="BalanceAmount5">最高</Item>
+		<Item Name="ScopeTier1">小規模</Item>
+		<Item Name="ScopeTier2">中規模</Item>
+		<Item Name="ScopeTier3">大規模</Item>
+		<Item Name="QualityAmount1">最低品質</Item>
+		<Item Name="QualityAmount2">低品質</Item>
+		<Item Name="QualityAmount3">中品質</Item>
+		<Item Name="QualityAmount4">高品質</Item>
+		<Item Name="QualityAmount5">最高品質</Item>
+		<Item Name="QualityAmount6">超高品質</Item>
+		<Item Name="PerceptionAmount1">忘れ去られた</Item>
+		<Item Name="PerceptionAmount2">微妙な人気</Item>
+		<Item Name="PerceptionAmount3">まともな人気</Item>
+		<Item Name="PerceptionAmount4">大人気</Item>
+		<Item Name="PerceptionAmount5">注目度の高い</Item>
+		<Item Name="PerceptionAmount6">業界最高峰</Item>
+		<Item Name="AwarenessAmount1">曖昧な</Item>
+		<Item Name="AwarenessAmount2">取るに足らない</Item>
+		<Item Name="AwarenessAmount3">興味深い</Item>
+		<Item Name="AwarenessAmount4">流行中</Item>
+		<Item Name="AwarenessAmount5">大流行</Item>
+	</DesignWindow>
+	<AutoWindow>
+		<Item Name="Project management">プロジェクト管理</Item>
+		<Item Name="ProjectManagementHint">To enable this, the team leader must have taken a course in project management through the education program</Item>
+		<Item Name="HR management">HR management</Item>
+		<Item Name="HRManagementHint">To enable this, the team leader must have taken a course in HR management through the education program</Item>
+		<Item Name="Dev budget">開発予算</Item>
+		<Item Name="Marketing budget">広報予算</Item>
+		<Item Name="Pre-marketing">リリース前の広報</Item>
+		<Item Name="Post-marketing">リリース後の広報</Item>
+		<Item Name="Support">サポート</Item>
+		<Item Name="Dev team">開発チーム</Item>
+		<Item Name="Marketing team">広報チーム</Item>
+		<Item Name="Support team">サポートチーム</Item>
+		<Item Name="Primary role">優先する役割</Item>
+		<Item Name="Secondary role">次に優先する役割</Item>
+		<Item Name="Budget">予算</Item>
+	</AutoWindow>
+	<ServerWindow>
+		<Item Name="ServerRename">サーバ名を入力して下さい</Item>
+		<Item Name="Rename">名前変更</Item>
+		<Item Name="Redelegate selected">プロセスを移行させる</Item>
+		<Item Name="UnsupportedProc">非実行プロセスを表示する</Item>
+		<Item Name="Processes">実行中プロセス</Item>
+	</ServerWindow>
+	<HireWindows>
+		<Item Name="Begin looking">求人する</Item>
+		<Item Name="Remove 10">10人を再求人</Item>
+		<Item Name="Interview">面接</Item>
+	</HireWindows>
+	<EducationWindow>
+		<Item Name="Start education">研修を実施する</Item>
+		<Item Name="ProjectCourseDesc">Project management allows a leader to take over a development cycle by automatically designing new products and delegating work to specific teams.</Item>
+		<Item Name="HRCourseDesc">HR management allows a leader to take over HR responsibilities, like hiring, firing, settling disputes, raises and education.</Item>
+	</EducationWindow>
+	<DistributionWindow>
+		<Item Name="Make Deal">Make deal</Item>
+		<Item Name="Take offline">Take offline</Item>
+		<Item Name="Popularity history">Popularity history</Item>
+		<Item Name="Your distribution channel">Your distribution channel</Item>
+		<Item Name="Cut">Cut</Item>
+		<Item Name="Open">Open</Item>
+		<Item Name="StoreName">Store name...</Item>
+	</DistributionWindow>
+	<WageWindow>
+		<Item Name="Employee request">従業員の要求</Item>
+		<Item Name="Accept">了解する</Item>
+		<Item Name="Close">閉じる</Item>
+	</WageWindow>
+	<LoanWindow>
+		<Item Name="Amount">借用金</Item>
+		<Item Name="Interest">利息</Item>
+		<Item Name="Period">返済期日</Item>
+		<Item Name="Current loans">現在の債権</Item>
+		<Item Name="Take loan">債権を発行する</Item>
+	</LoanWindow>
+	<InsuranceWindow>
+		<Item Name="Deposit">積み立て</Item>
+		<Item Name="Withdraw">掛け捨て</Item>
+		<Item Name="InsuranceFunds">自社の積立保険の積立金額</Item>
+		<Item Name="HealthInsurance">健康保険:(若い世代の従業員の雇用に有効)</Item>
+		<Item Name="LifeInsurance">生命保険:(中間世代の従業員の雇用に有効)</Item>
+		<Item Name="PensionDesc">労務保険:(シニア世代の従業員の雇用に有効)</Item>
+		<Item Name="PerEmployee">従業員当たりの掛け金割合</Item>
+	</InsuranceWindow>
+	<StockWindow>
+		<Item Name="SharesIn">持ち株内訳:</Item>
+		<Item Name="SharesOut">自社株内訳:</Item>
+	</StockWindow>
+	<StaffWindow>
+		<Item Name="Permanent">契約雇用</Item>
+		<Item Name="Temporary">一時契約</Item>
+		<Item Name="Call janitor">作業員を呼ぶ</Item>
+		<Item Name="Call cleaning">清掃員を呼ぶ</Item>
+		<Item Name="Call IT-support">IT事業者を呼ぶ</Item>
+		<Item Name="Hire janitor">作業員を雇用する</Item>
+		<Item Name="Hire cleaning">清掃員を雇用する</Item>
+		<Item Name="PerHour"> 時給</Item>
+		<Item Name="PerMonth"> 月給</Item>
+		<Item Name="ITPayment">{0} を前報酬として
+故障を修理毎に {0} を歩合報酬とする</Item>
+	</StaffWindow>
+	<Newspaper>
+		<Item Name="Review section">レビュー記事</Item>
+		<Item Name="Business section">ビジネス記事</Item>
+		<Item Name="Industry section">テクノロジ記事</Item>
+		<Item Name="Player section">あなたの関連記事</Item>
+	</Newspaper>
+	<Pause>
+		<Item Name="Resume">再開</Item>
+		<Item Name="Save game">セーブ</Item>
+		<Item Name="Save game as">名前をつけてセーブ</Item>
+		<Item Name="Load game">ロード</Item>
+		<Item Name="Quit to menu">トップメニューへ戻る</Item>
+		<Item Name="Quit to desktop">デスクトップへ戻る</Item>
+	</Pause>
+	<Marketing>
+		<Item Name="Interwebs">ウェブ広告</Item>
+		<Item Name="Radio">ラジオ広告</Item>
+		<Item Name="Newspapers">新聞広告</Item>
+		<Item Name="Television">テレビ広告</Item>
+		<Item Name="Start campaign">キャンペーン広報を開始する</Item>
+	</Marketing>
+	<OptionsWindow>
+		<Item Name="Auto-skip day">自動で翌日へ飛ばす</Item>
+		<Item Name="AutoSkipHint">従業員やスタッフが誰も働いていない時に、自動で翌日へ時間を進めることができます</Item>
+		<Item Name="Currency">通貨</Item>
+		<Item Name="Difficulty">ゲーム難易度</Item>
+		<Item Name="Run in background">バックグラウンド実行</Item>
+		<Item Name="Auto-save">オートセーブ</Item>
+		<Item Name="AutoSaveHint">毎月オートセーブ用のセーブデータへセーブが実行されます</Item>
+		<Item Name="Tutorials">チュートリアル</Item>
+		<Item Name="AM/PM">AM/PM</Item>
+		<Item Name="Celsius">マス目表示</Item>
+		<Item Name="Mouse edge scrolling">自動スクロール</Item>
+		<Item Name="MouseEdgeHint">画面端へカーソルを移動させた際に、画面を自動でスクロールさせる</Item>
+		<Item Name="Scroll speed">スクロール速度</Item>
+		<Item Name="Zoom speed">ズーム速度</Item>
+		<Item Name="Rotation speed">回転速度</Item>
+		<Item Name="Easy">イージー</Item>
+		<Item Name="Medium">メディウム</Item>
+		<Item Name="Hard">ハード</Item>
+		<Item Name="Gameplay">ゲーム</Item>
+		<Item Name="Graphics">グラフィック</Item>
+		<Item Name="Audio">オーディオ</Item>
+		<Item Name="Keys">キーコンフィグ</Item>
+		<Item Name="Resolution">描画設定</Item>
+		<Item Name="Fullscreen">フルスクリーン</Item>
+		<Item Name="Antialias type">アンチエイリアス</Item>
+		<Item Name="AntialiasHint">Softens jagged edges</Item>
+		<Item Name="VSync">VSync</Item>
+		<Item Name="VSyncHint">Waits for the screen's refresh rate to render. Removes screen tearing and avoids overheating.</Item>
+		<Item Name="1 frame">1 フレーム</Item>
+		<Item Name="2 frames">2 フレーム</Item>
+		<Item Name="Shadows">影描画の有無</Item>
+		<Item Name="ShadowsHint">The exterior environment casts shadows based on the sun's position</Item>
+		<Item Name="More shadows">より緻密な影描画</Item>
+		<Item Name="MoreShadowsHint">Every light in the game casts shadows (Requires a high-end graphics card)</Item>
+		<Item Name="Texture quality">テクスチャ品質</Item>
+		<Item Name="Ambient occlusion">Ambient occlusion</Item>
+		<Item Name="AmbientOcclusionHint">Adds shadows to corners and crevices</Item>
+		<Item Name="Tilt shift">タイルシフト</Item>
+		<Item Name="TiltShiftHint">Blurs the top and bottom part of the screen to give a miniature effect</Item>
+		<Item Name="Bloom">光の効果</Item>
+		<Item Name="BloomHint">Adds a slight glow and increases color strength</Item>
+		<Item Name="FPS">FPS</Item>
+		<Item Name="Music">ミュージック</Item>
+		<Item Name="SFX">効果音</Item>
+		<Item Name="User Interface">ユーザインターフェイス</Item>
+		<Item Name="Toggle lights">光源の切り替え</Item>
+		<Item Name="Toggle walls">壁表示の切り替え</Item>
+		<Item Name="Move camera forward">カメラの上移動</Item>
+		<Item Name="Move camera backward">カメラの下移動</Item>
+		<Item Name="Move camera left">カメラの左移動</Item>
+		<Item Name="Move camera right">カメラの右移動</Item>
+		<Item Name="Rotate camera up">カメラの上回転</Item>
+		<Item Name="Rotate camera down">カメラの下回転</Item>
+		<Item Name="Rotate camera left">カメラの左回転</Item>
+		<Item Name="Rotate camera right">カメラの右回転</Item>
+		<Item Name="Zoom in">ズームイン</Item>
+		<Item Name="Zoom out">ズームアウト</Item>
+		<Item Name="Move up one floor">上の階層へ移動</Item>
+		<Item Name="Move down one floor">下の階層へ移動</Item>
+		<Item Name="Pause game">ポーズ</Item>
+		<Item Name="Normal game speed">等速</Item>
+		<Item Name="Faster game speed">２倍速</Item>
+		<Item Name="Fastest game speed">４倍速</Item>
+		<Item Name="Toggle camera mode">カメラモード</Item>
+		<Item Name="Hide HUD">メニュー非表示</Item>
+		<Item Name="Go to employee">従業員へ移動</Item>
+		<Item Name="Destroy selected">選択中のアイテムを売却/廃棄/解雇する</Item>
+		<Item Name="Toggle Build Mode">建築モード</Item>
+	</OptionsWindow>
+	<AI>
+		<Item Name="Idle">待機中</Item>
+		<Item Name="Looking for computer">PCを探しています</Item>
+		<Item Name="Going home">帰宅中</Item>
+		<Item Name="Working">仕事中</Item>
+		<Item Name="Going to get food">食べ物を取りに行きます</Item>
+		<Item Name="Going to get coffee">コーヒーを取りに行きます</Item>
+		<Item Name="Making coffee">コーヒーを淹れています</Item>
+		<Item Name="Getting food">食べ物を調達しています</Item>
+		<Item Name="Going to meeting">ミーティングへ行きます</Item>
+		<Item Name="In meeting">ミーティング中</Item>
+		<Item Name="Going to toilet">トイレへ行きます</Item>
+		<Item Name="Pooping">トイレ中</Item>
+		<Item Name="Looking for broken stuff">故障したものを探しています</Item>
+		<Item Name="Going to repair something">修理しに行きます</Item>
+		<Item Name="Repairing">修理中</Item>
+		<Item Name="Looking for dirty room">掃除が必要な部屋を探しています</Item>
+		<Item Name="Going to clean room">掃除しに行きます</Item>
+		<Item Name="Cleaning">掃除中</Item>
+		<Item Name="Looking for dirt">汚れを探しています</Item>
+		<Item Name="In class">研修中</Item>
+		<Item Name="Dismissed">キャンセル中</Item>
+		<Item Name="At work">仕事中</Item>
+		<Item Name="At home">帰宅中</Item>
+		<Item Name="Retired">引退</Item>
+		<Item Name="Vacation">休暇</Item>
+		<Item Name="Sick">療養中</Item>
+		<Item Name="Dead">死亡</Item>
+		<Item Name="Hospitalized">入院中</Item>
+	</AI>
+	<Thoughts>
+		<Item Name="NoLikeWorker">私は {0} さんのことが嫌いです……</Item>
+		<Item Name="LikeWorker">私は {0} さんのことが大好きです！</Item>
+		<Item Name="WornOut">私はもう疲れきっています……</Item>
+		<Item Name="MeetingGreat">このミーティングは最高だ！！</Item>
+		<Item Name="LoveWork">仕事♡大好き</Item>
+		<Item Name="TooManyJobs">私は一度にあまりに多くの仕事を割り当てられています</Item>
+		<Item Name="BadWageNeg">私は最後の賃金交渉に納得していません</Item>
+		<Item Name="GoodSalary">私はこの月給に満足しています</Item>
+		<Item Name="IsFreezing">さ、寒い……</Item>
+		<Item Name="IsBurning">暑い……</Item>
+		<Item Name="NoSee">暗くて何も見えない</Item>
+		<Item Name="RoomDirty">部屋が汚すぎる！！</Item>
+		<Item Name="RoomNotDirty">この部屋は清潔で気持ちいいね</Item>
+		<Item Name="UncomfortableFurniture">この設備はとても使いにくい</Item>
+		<Item Name="ComputerGood">このコンピュータはとても快適です</Item>
+		<Item Name="ComputerBad">このコンピュータでは仕事が捗りません</Item>
+		<Item Name="NoiseComplaint">この部屋の騒音がひどすぎます</Item>
+		<Item Name="NoNoiseGood">この部屋はとても静かで快適ですね</Item>
+		<Item Name="BasementComplaint">地下室で働くのは気分が悪くなるよ</Item>
+		<Item Name="OtherTeamComplaint">他のチームとの仕事がうまくいきません</Item>
+		<Item Name="Starving">そんなことよりおなかがすいたよ</Item>
+		<Item Name="HasToPee">おしっこしたい</Item>
+		<Item Name="LowerSalaryComplaint">私達が待ち望んでいた給与が支払われなかった……</Item>
+		<Item Name="HigherSalary">昇給した！ヤッター！</Item>
+		<Item Name="SalaryCutComplaint">減給された……</Item>
+	</Thoughts>
+	<Warnings>
+		<Item Name="UnsatisfiedEmployeesWarning">やりたくない仕事に不満を持つ従業員がいます。</Item>
+		<Item Name="StarvingWarning">空腹で作業が手につかない従業員がいます。</Item>
+		<Item Name="HasToPeeWarning">おしっこを我慢して作業が手につかない従業員がいます。</Item>
+		<Item Name="WornOutWarning">疲れすぎて作業が手につかない従業員がいます。</Item>
+		<Item Name="FreezingWarning">寒そうな従業員がいます。</Item>
+		<Item Name="BurningWarning">暑そうな従業員がいます。</Item>
+		<Item Name="NoSeeWarning">明かりの足りない従業員がいます。</Item>
+		<Item Name="RoomDirtyWarning">汚い部屋が不快に思う従業員がいます。</Item>
+		<Item Name="RoomDirtyWarning2">早急に掃除が必要な部屋があります。</Item>
+		<Item Name="ComputerBadWarning">遅いパソコンに文句を言う従業員がいます。</Item>
+		<Item Name="NoiseWarning">騒音で集中できない従業員がいます。</Item>
+		<Item Name="OtherTeamWarning">他のチームがいると集中できません。</Item>
+		<Item Name="CannotAfford">余裕がありません。</Item>
+		<Item Name="BusFullWarning"バスが満員なので駐車場を検討して下さい。。</Item>
+		<Item Name="Click and drag">クリックしてドラッグして下さい。</Item>
+		<Item Name="RoomClosedOff">この部屋にドアやエレベーターなどの出入口を追加して下さい。</Item>
+		<Item Name="PublicToiletWarning">それぞれの部署にトイレを完備して下さい。</Item>
+		<Item Name="RoomOvercrowdWarning">パソコンや人が多すぎると気が散ります。</Item>
+		<Item Name="RoomLighingWaning">照明が不十分です。窓やライトを設置して下さい。</Item>
+		<Item Name="FurnitureBrokeWarning">一部の設備が壊れています。メンテナンスしてください。</Item>
+		<Item Name="UnsupportedStructure">一部のパソコンがしばらくの間ITサポートされていません。</Item>
+		<Item Name="RoomOnRoad">道の上には建物は建てられません。</Item>
+		<Item Name="RoomInRoom">他の部屋の中に部屋を作ることはできません。もし部屋を分けたいのなら壁と壁を繋いでください。</Item>
+		<Item Name="RoomOutOfPlot">あなたの所有地に建物を建築して下さい。</Item>
+		<Item Name="RoomTooSmall">少なくとも2×2以上の部屋の広さにしてください。</Item>
+		<Item Name="CannotReplaceDuplicateSegment"> {0} と {0}を交換できません。</Item>
+		<Item Name="SegmentOnBoundary">境界線に設置してください。</Item>
+		<Item Name="FurnitureInRoom">部屋のなかに設置してください。</Item>
+		<Item Name="FurnitureOnWall">壁に設備してください。</Item>
+		<Item Name="FurnitureOnTable">空いている机に設置してください。</Item>
+		<Item Name="FurnitureOccupied">空いている場所に設置してください。</Item>
+		<Item Name="FurnitureAtTable">空いている机に設置してください。</Item>
+	</Warnings>
+	<Affectors>
+		<Item Name="Hunger">食欲</Item>
+		<Item Name="Energy">元気</Item>
+		<Item Name="Bladder">トイレ</Item>
+		<Item Name="Job satisfaction">仕事への満足度</Item>
+		<Item Name="Fired">解雇された</Item>
+		<Item Name="Temperature">湿度</Item>
+		<Item Name="Environment">環境</Item>
+		<Item Name="Comfort">娯楽</Item>
+		<Item Name="Computer">コンピュータ</Item>
+		<Item Name="Noise">騒音</Item>
+		<Item Name="Lighting">明るさ</Item>
+		<Item Name="Basement">地下室</Item>
+		<Item Name="Other teams">他のチーム</Item>
+	</Affectors>
+	<Dialogs>
+		<Item Name="EmployeeQuitTitle">{0} が退職願を出しています</Item>
+		<Item Name="AndSeperator"> そして </Item>
+		<Item Name="OrSeperator"> また </Item>
+		<Item Name="EmployeeQuitRaise">月給を {0} 上げるように要求しています</Item>
+		<Item Name="DemoWarning">この機能はデモバージョンではご利用いただけません</Item>
+		<Item Name="DemoFloorWarning">デモバージョンでは２階層までのフロアを建築することができます</Item>
+		<Item Name="OverwriteConfirmMsg">上書きしてもよろしいですか？</Item>
+		<Item Name="OverwriteConfirmTitle">確認</Item>
+		<Item Name="DismissTitle">解雇</Item>
+		<Item Name="DismissMsg">本当にこの従業員 {0} を解雇してもよろしいですか？</Item>
+		<Item Name="DismissMsg2">{0} を解雇しました</Item>
+		<Item Name="SellTitle">売却</Item>
+		<Item Name="SellMsg">本当にこの設備 {0} を売却してもよろしいですか？</Item>
+		<Item Name="SellMsg2">{0} を売却しました</Item>
+		<Item Name="BulldozeTitle">破壊</Item>
+		<Item Name="BulldozeMsg">本当にこの部屋 {0} を破壊してもよろしいですか？</Item>
+		<Item Name="BulldozeMsg2">部屋 {0} を破壊しました</Item>
+		<Item Name="CannotBulldozeSupport">一度に複数の部屋は取り壊しできません。</Item>
+		<Item Name="MissingSaveContinue">続行の前にセーブをして下さい。</Item>
+		<Item Name="SaveGameSuccess">保存しました。</Item>
+		<Item Name="SaveGameSuccessTitle">セーブ</Item>
+		<Item Name="NoStockInterest">誰もこの株に興味がありません。</Item>
+		<Item Name="NoStockInterestTitle">株</Item>
+		<Item Name="StockWatError">全株を売り払うことはできません。売り払ったらプレイヤーがいなくなります。</Item>
+		<Item Name="StockRepLow">あなたの評判はこの金額に全然達していません。</Item>
+		<Item Name="HRNoRooms">あなたはこのチームに人材管理を有効にしていますが、
+このチームに部屋を割り当ててください。</Item>
+		<Item Name="DesignProductNameError">すでにその名前は使われています。</Item>
+		<Item Name="ProductOSError">オペレーションシステムを選択してください。</Item>
+		<Item Name="ProductNeedError">利用機能を選択してください。</Item>
+		<Item Name="DesignProductNameHint">続編を出したいときは名前をクリックしてください。</Item>
+		<Item Name="DesignProductTeamSizeHint">この製品はあなたが選択したチームでは荷が重いです。
+それでも続行しますか？</Item>
+		<Item Name="DesignProductFeatureHint">あなたのチームが持っていない分野の機能が、この製品に選択されていますが
+それでも続行しますか？</Item>
+		<Item Name="ProductLicenseError">ライセンス使用料を支払えません。</Item>
+		<Item Name="DistributionNameError">すでにこの名前は使用されています。</Item>
+		<Item Name="DistributionServerError">サーバーを選択してください。</Item>
+		<Item Name="DistributionNameWarning">流通チャンネルを {0}と名付けて開設しますか？（後から変更はできません）</Item>
+		<Item Name="DistributionOfflineWarning">本当にオフラインにしてもよろしいですか？（おそらく非難が殺到します）</Item>
+		<Item Name="EmployeeCourseBookError">すでにコースが予定されています。</Item>
+		<Item Name="TeamNameError">そのチーム名はすでに使用されています。</Item>
+		<Item Name="TeamEmptyNameError">チーム名を入力してください。</Item>
+		<Item Name="LowMoneyHireWarning">資金が少なくて{0}を雇用すると会社が持ちませんが、それでも本当に雇用しますか？</Item>
+		<Item Name="LowInsuranceHireWarning">保険口座に担保すると良い人材が集まります。それでも本当に保険に担保しませんか？</Item>
+		<Item Name="WinDialogMsg">おめでとうございます！あなたはこのシナリオを達成しました！</Item>
+		<Item Name="WinDialogMsgTitle">目標達成！</Item>
+		<Item Name="WinDialogMsgQuit">終了</Item>
+		<Item Name="WinDialogMsgContinue">続ける</Item>
+		<Item Name="LoseDialogMsg">残念ながらこのシナリオの目標を達成できませんでした。</Item>
+		<Item Name="LoseDialogMsgTitle">失敗</Item>
+		<Item Name="BankruptInsurance">あなたの口座残高がとうとう {0} になりました。
+保険基金から {1} を解約して倒産を回避しますか？</Item>
+		<Item Name="BankruptStock">あなたの口座残高がとうとう {0} になりました。
+株式の {1} を売却して倒産を回避しますか？</Item>
+		<Item Name="BankruptLoan">あなたの口座残高がとうとう {0} になりました。
+銀行から {1} の融資を受けて倒産を回避しますか？</Item>
+		<Item Name="BankruptLoseMsg">あなたの口座残高がとうとう {0} になりました。</Item>
+	</Dialogs>
+	<FurnitureInfo>
+		<Item Name="Currently used by">現在の利用者</Item>
+		<Item Name="Owned by">設備の所有者</Item>
+		<Item Name="Nobody">誰でも</Item>
+		<Item Name="Currently on">使用中</Item>
+		<Item Name="Currently off">未使用</Item>
+		<Item Name="FurnitureUnlock">This item unlocks in the year {0}</Item>
+	</FurnitureInfo>
+	<RoomLimitNames>
+		<Item Name="Lounge">ラウンジ</Item>
+		<Item Name="Anyone">誰でも利用可能</Item>
+		<Item Name="Leaders">リーダー</Item>
+		<Item Name="Programmers">プログラマ</Item>
+		<Item Name="Designers">ソフトウェア設計者</Item>
+		<Item Name="Artists">アーティスト</Item>
+	</RoomLimitNames>
+	<BuildMode>
+		<Item Name="Wall">壁</Item>
+		<Item Name="Door">ドア</Item>
+		<Item Name="Elevator">エレベータ</Item>
+		<Item Name="Window">窓</Item>
+		<Item Name="Road">道路</Item>
+		<Item Name="Parking">駐車場</Item>
+		<Item Name="Room">部屋</Item>
+		<Item Name="Destroy">破壊</Item>
+		<Item Name="Normal">通常</Item>
+		<Item Name="Horizontal">水平</Item>
+		<Item Name="Vertical">垂直</Item>
+		<Item Name="Construct room">部屋建築</Item>
+		<Item Name="Remove road">道路撤去</Item>
+		<Item Name="Build road">道路建築</Item>
+		<Item Name="Not available in demo">デモバージョンではご利用いただけません</Item>
+		<Item Name="Office">オフィス</Item>
+		<Item Name="Needs">依存</Item>
+		<Item Name="Decoration">装飾</Item>
+		<!-- Add Original Translation -->
+		<Item Name="Gate">ゲート</Item>
+		<Item Name="Stairs">階段</Item>
+		<Item Name="Bathroom">トイレ/浴室</Item>
+		<Item Name="Breakroom">休憩所</Item>
+		<Item Name="Common">一般</Item>
+		<Item Name="Kitchen">厨房</Item>
+		<Item Name="Outdoors">屋外</Item>
+		<Item Name="Reception">応接室</Item>
+		<Item Name="Utility">ユーティリティ</Item>
+		<Item Name="Table">テーブル</Item>
+		<Item Name="Sitting">椅子</Item>
+	</BuildMode>
+	<RightClick>
+		<Item Name="ActionPair">設備の所有権を従業員に割り当てる</Item>
+		<Item Name="ActionDefault Style">デフォルトスタイルに戻す</Item>
+		<Item Name="ActionUnify Style">選択したスタイルで統一する</Item>
+		<Item Name="ActionRoom Color">部屋の配色を変更する</Item>
+		<Item Name="ActionEducate">従業員を研修させる</Item>
+		<Item Name="ActionDismiss">従業員を解雇する</Item>
+		<Item Name="ActionSell">設備を売却する</Item>
+		<Item Name="ActionDestroy">部屋を破壊する</Item>
+		<Item Name="ActionChange Team">部屋をチームに割り当てる</Item>
+		<Item Name="ActionLimit Use">部屋を役割毎に割り当てる</Item>
+		<Item Name="ActionSelect Building">建物全体を選択する</Item>
+		<Item Name="ActionChange Role">従業員の役割を変更する</Item>
+		<Item Name="ActionSend home">従業員を帰宅させる</Item>
+		<Item Name="ActionFurniture color">設備のカラーを変更する</Item>
+		<Item Name="ActionTypes in Room">部屋の中にある、選択中の設備と同じ種類の設備をすべて選択する</Item>
+		<Item Name="ActionDetails">従業員の詳細</Item>
+		<Item Name="ActionChange Salary">従業員の月給を変更する</Item>
+		<Item Name="ActionSelect Team">所属チームを選択</Item>
+		<Item Name="ActionSelect Owned">この従業員の所有物として割り当てられている設備を選択する</Item>
+		<Item Name="ActionSelect Staff">部屋に居る従業員を選択する</Item>
+		<Item Name="ActionUnpair">設備の所有権の割り当てを解除する</Item>
+		<Item Name="ActionPair Use">使用している設備を従業員の所有物として割り当てる</Item>
+		<Item Name="ActionUpgrade">次の世代の設備へアップグレードする</Item>
+		<Item Name="ActionMove">設備を移動する</Item>
+	</RightClick>
+	<ProductWindow>
+		<Item Name="ProductChooseGeneric">選択中 {0}</Item>
+		<Item Name="ProductChooseOS">OSを選択</Item>
+		<Item Name="ProductChooseSequel">ベース製品を選択</Item>
+		<Item Name="PlayerReleases">自社製品</Item>
+		<Item Name="AllReleaes">全製品</Item>
+		<Item Name="CompanyReleases">全製品 {0}</Item>
+	</ProductWindow>
+	<WorkItems>
+		<Item Name="SupportTickets">チケットが {0} 発行中</Item>
+		<Item Name="CancelSupport">サポートを中止</Item>
+		<Item Name="MarketingFundsOut">広報活動費が足りません。</Item>
+		<Item Name="MarketingStage">プレスリリース</Item>
+		<Item Name="MarketingBalance">Net</Item>
+		<Item Name="DesignStageStockWait">承認待ちです</Item>
+		<Item Name="DesignStageDesigning">ソフトウェア設計中</Item>
+		<Item Name="ThrowOutAuto">計画中止</Item>
+		<Item Name="DesignWaitLabel">待機中</Item>
+		<Item Name="WorkItemQuality">想定品質</Item>
+		<Item Name="DesignNoProgress">未完成のため、開発を進めることができません。</Item>
+		<Item Name="DesignNoProgressTitle">開発不可能</Item>
+		<Item Name="AlphaNoProgress">この段階ではアルファ版をリリースできません。</Item>
+		<Item Name="AlphaNoProgressTitle">Cannot promote</Item>
+		<Item Name="ContractCancel">契約解除により {0} を失いました</Item>
+		<Item Name="ContractFinish">納品した契約により契約金 {0} を得ました</Item>
+		<Item Name="Alpha">アルファ</Item>
+		<Item Name="Beta">ベータ</Item>
+		<Item Name="Promote">プロモート</Item>
+		<Item Name="Delay">遅延</Item>
+		<Item Name="NoBugs">バグはありません</Item>
+		<Item Name="StillBugs">{0}箇所のバグを修正</Item>
+		<Item Name="ReleaseMarketingHint"> 今すぐ{0} の販売を開始しますか？
+広報活動は売り上げに必要です。
+発表を開始した後に、広報活動することができます。</Item>
+	</WorkItems>
+	<Clothing>
+		<Item Name="Skirt">スカート</Item>
+		<Item Name="T-shirt">Tシャツ</Item>
+		<Item Name="Jacket">ジャケット</Item>
+		<Item Name="Pants">パンツ</Item>
+		<Item Name="Shorts">ショーツ</Item>
+		<Item Name="Shirt">スカート</Item>
+	</Clothing>
+	<Goal>
+		<Item Name="MoneyGoal">口座に {0} 貯める</Item>
+		<Item Name="DateGoal">期限は {0}までに</Item>
+		<Item Name="NothingGoal">特になし</Item>
+	</Goal>
+	<ProductDetails>
+		<Item Name="Innovation">革新性</Item>
+		<Item Name="Stability">安定性</Item>
+		<Item Name="Usability">ユーザビリティ性</Item>
+		<Item Name="Operating systems">OS</Item>
+		<Item Name="ProductNeeds">必須ソフトウェア</Item>
+		<Item Name="Franchise">ベース製品</Item>
+		<Item Name="Used in">使用ソフトウェア</Item>
+		<Item Name="Features">機能</Item>
+		<Item Name="Take off market">販売終了</Item>
+		<Item Name="Put on market">販売再開</Item>
+		<Item Name="ProductDetailTitle">{0}の詳細</Item>
+		<Item Name="ProductDetailLeftText">製品名: {0}
+販売企業: {1}({2})
+タイプ: {4} {3}
+オープンソース: {5}
+In-house: {6}
+リリース日: {7}</Item>
+		<Item Name="ProductDetailRightText">品質: {0}
+人気度: {1}
+認知度: {2}
+ライセンス費用: {3}
+売上: {4}
+費用: {5}</Item>
+	</ProductDetails>
+	<FurnitureQuality>
+		<Item Name="Broken">故障</Item>
+		<Item Name="Calcified">Calcified</Item>
+		<Item Name="Clean">清掃</Item>
+		<Item Name="Bulb died">Bulb died</Item>
+		<Item Name="Flickering">Flickering</Item>
+		<Item Name="Dim">薄暗い</Item>
+		<Item Name="Bright">明るい</Item>
+		<Item Name="Burned out">燃え尽きている</Item>
+		<Item Name="Hardly working">ほとんど仕事なし</Item>
+		<Item Name="Capable">稼働中</Item>
+		<Item Name="Effecient">効率的に稼働中</Item>
+		<Item Name="Overpowered">出力余剰で稼働中</Item>
+		<Item Name="Somewhat working">少しの仕事中</Item>
+		<Item Name="FurnWorking">仕事中</Item>
+		<Item Name="Clogged">引き延ばしている</Item>
+		<Item Name="Disgusting">気分が悪い</Item>
+		<Item Name="Brown water">褐色水</Item>
+		<Item Name="Shiny">光り輝く</Item>
+	</FurnitureQuality>
+	<Item Name="WireModeLongHint">左クリックでサーバーを選択した後に別のサーバーを左クリックして接続します。
+
+ダブルクリックすると接続を切断できます。
+
+右クリックでキャンセルできます。</Item>
+	<Item Name="Noisiness">騒音</Item>
+	<Item Name="State">状態</Item>
+	<Item Name="YearsPostfix"> 年</Item>
+	<Item Name="MonthsPostfix"> ヶ月</Item>
+	<Item Name="Assign">配属</Item>
+	<Item Name="Unassigned">未配属</Item>
+	<Item Name="SaveName">セーブ名を付けて下さい</Item>
+	<Item Name="Save">セーブ</Item>
+	<Item Name="Load">ロード</Item>
+	<Item Name="Apply">決定</Item>
+	<Item Name="New team">新チーム</Item>
+	<Item Name="Team name">チーム名</Item>
+	<Item Name="Enable">有効</Item>
+	<Item Name="Accept work">受注する</Item>
+	<Item Name="Specialization">専門分野</Item>
+	<Item Name="Skill">スキル</Item>
+	<Item Name="Traits">Traits</Item>
+	<Item Name="Design">ソフトウェア設計</Item>
+	<Item Name="Code">プログラミング</Item>
+	<Item Name="Art">アート</Item>
+	<Item Name="Base skill">ベーススキル</Item>
+	<Item Name="Lead">リーダー</Item>
+	<Item Name="Leader">リーダー</Item>
+	<Item Name="Designer">ソフトウェア設計者</Item>
+	<Item Name="Programmer">プログラマ</Item>
+	<Item Name="Artist">アーティスト</Item>
+	<Item Name="Marketer">広報</Item>
+	<Item Name="Take any job">すべての役割</Item>
+	<Item Name="Any role">すべての役割</Item>
+	<Item Name="Any">すべて</Item>
+	<Item Name="All">すべて</Item>
+	<Item Name="Work affectors">Work affecters</Item>
+	<Item Name="Feature">機能</Item>
+	<Item Name="Change team">チーム変更</Item>
+	<Item Name="Change roles">役割変更</Item>
+	<Item Name="Fire">解雇</Item>
+	<Item Name="Select all">全て選択</Item>
+	<Item Name="Educate">研修</Item>
+	<Item Name="Interior">内装</Item>
+	<Item Name="Exterior">外装</Item>
+	<Item Name="Floor">床</Item>
+	<Item Name="Usage">使用方法</Item>
+	<Item Name="None">なし</Item>
+	<Item Name="Primary">プライマリ</Item>
+	<Item Name="Secondary">セカンダリ</Item>
+	<Item Name="Tertiary">サード</Item>
+	<Item Name="RoomBuildHint">部屋を分割、結合や拡大します。</Item>
+	<Item Name="SkipTimeHint">もう開業できる時はここをクリックしてください</Item>
+	<Item Name="BankruptcyHint">このまま赤字が続けば、あなたは破産してしまいます！</Item>
+	<Item Name="RotateFurnHint">家具を回転させるにはドラッグしてください</Item>
+	<Item Name="Development">ソフトウェア開発</Item>
+	<Item Name="SearchBar">検索内容を入力して下さい</Item>
+	<Item Name="Inventor">提案者</Item>
+	<Item Name="Bought">購入済み</Item>
+	<Item Name="Color">カラー</Item>
+	<Item Name="NetProfit">純利益</Item>
+	<Alpha4.1>
+		<Item Name="AreYouSure">よろしいですか？</Item>
+		<Item Name="MarketingWindowTitle">{0} のマーケティング中</Item>
+		<Item Name="PreMarketingWindowTitle">{0} の事前マーケティング中</Item>
+		<Item Name="MarketingStop">終了する</Item>
+		<Item Name="On market">販売中</Item>
+		<Item Name="CustomLeaderHint">チーム一丸となって処理能力を高めるのが監督の仕事です。</Item>
+		<Item Name="CustomProgrammerHint">バグの発見と修正の質と量は施工にかかっています。</Item>
+		<Item Name="CustomDesignerHint">とんでもなく複雑な設計になる前に修正するのが設計の仕事です。</Item>
+		<Item Name="CustomArtistHint">欠陥の発見と修正の質と量は美術にかかってます。</Item>
+		<Item Name="CustomMarketerHint">宣伝活動や会社の評判を増加させるのが広報の仕事です。</Item>
+		<Item Name="ElectronicHeatWarning">電子機器が熱の悪影響を受けています。</Item>
+		<Item Name="ActionCoolOverride">サーバ機材冷却のための過剰冷房モード</Item>
+		<Item Name="CoolMode">過剰冷房モード</Item>
+		<Item Name="Slavery">スレーブ</Item>
+	</Alpha4.1>
+	<Alpha4.2>
+		<Item Name="NeedNotChosen">選択して下さい</Item>
+	</Alpha4.2>
+	<Alpha4.3>
+		<Item Name="Re-open">再開します</Item>
+		<Item Name="cashflow">キャッシュフロー</Item>
+		<Item Name="Rooms">部屋</Item>
+		<Item Name="Furniture">設備</Item>
+		<Item Name="SelectedEverything">全選択</Item>
+		<Item Name="JanuaryAbbr">1月</Item>
+		<Item Name="FebruaryAbbr">2月</Item>
+		<Item Name="MarchAbbr">3月</Item>
+		<Item Name="AprilAbbr">4月</Item>
+		<Item Name="MayAbbr">5月</Item>
+		<Item Name="JuneAbbr">6月</Item>
+		<Item Name="JulyAbbr">7月</Item>
+		<Item Name="AugustAbbr">8月</Item>
+		<Item Name="SeptemberAbbr">9月</Item>
+		<Item Name="OctoberAbbr">10月</Item>
+		<Item Name="NovemberAbbr">11月</Item>
+		<Item Name="DecemberAbbr">12月</Item>
+		<Item Name="Day">日</Item>
+		<Item Name="DayPostfix">(s)日</Item>
+		<Item Name="6 months">6ヶ月前</Item>
+		<Item Name="Last month">先月</Item>
+		<Item Name="This month">今月</Item>
+		<Item Name="SheetHR">HR</Item>
+		<Item Name="SheetSalaries">月給</Item>
+		<Item Name="SheetStaff">スタッフ</Item>
+		<Item Name="SheetHire">雇用</Item>
+		<Item Name="SheetEducation">研修</Item>
+		<Item Name="SheetMaintenance">メンテナンス</Item>
+		<Item Name="SheetConstruction">Construction</Item>
+		<Item Name="SheetRepairs">補修</Item>
+		<Item Name="SheetBills">維持費</Item>
+		<Item Name="SheetSoftware">ソフトウェア</Item>
+		<Item Name="SheetSales">売上</Item>
+		<Item Name="SheetLicenses">ライセンス</Item>
+		<Item Name="SheetMarketing">広告費</Item>
+		<Item Name="SheetContracts">受注</Item>
+		<Item Name="SheetDistribution">データ配信</Item>
+		<Item Name="SheetMisc">その他</Item>
+		<Item Name="SheetStocks">株式</Item>
+		<Item Name="SheetLoan">債権</Item>
+		<Item Name="SheetInterest">利息</Item>
+		<Item Name="SheetNA">N/A</Item>
+		<Item Name="DaysPerMonth">月額日</Item>
+		<Item Name="OffMarketHint">サポートできない場合は出荷を終了したほうが、評判が落ちない可能性があります。</Item>
+	</Alpha4.3>
+	<Alpha4.4>
+		<Item Name="Room Aura">Room Aura</Item>
+		<Item Name="Janitor">メンテナンス</Item>
+		<Item Name="IT">IT</Item>
+	</Alpha4.4>
+	<Alpha4.5>
+		<Item Name="Month">月</Item>
+		<Item Name="Year">年</Item>
+		<Item Name="PresimLoadMsg">Simulating market...</Item>
+		<Item Name="VacationNotify">{0} 従業員たちはバケーションへ出掛けました</Item>
+		<Item Name="RetireNotify">{0} は引退しました</Item>
+		<Item Name="SickNotify">{0} は病気になりました</Item>
+		<Item Name="DiedNotify">{0} は死んだ！</Item>
+		<Item Name="HospitalizedNotify">{0} が事故で入院しました！</Item>
+		<Item Name="Skip day">翌日へスキップ</Item>
+		<Item Name="CompanyLoadMsg">実行中の企業</Item>
+		<Item Name="TeamCompat0">N/A</Item>
+		<Item Name="TeamCompat1">最悪</Item>
+		<Item Name="TeamCompat2">かなり悪い</Item>
+		<Item Name="TeamCompat3">悪い</Item>
+		<Item Name="TeamCompat4">普通</Item>
+		<Item Name="TeamCompat5">良い</Item>
+		<Item Name="TeamCompat6">かなり良い</Item>
+		<Item Name="TeamCompat7">最高</Item>
+		<Item Name="ITBrokeWarning">いくつかの電子機器が故障しました。ITサポートを呼んで下さい。</Item>
+		<Item Name="SheetBalance">収支</Item>
+		<Item Name="Thoughts">感想</Item>
+		<Item Name="Ideal salary">理想的な給与</Item>
+		<Item Name="Any job">全ての役割</Item>
+	</Alpha4.5>
+	<Alpha4.6>
+		<Item Name="NoPeeOptions">どこでおしっこをすればいいの</Item>
+		<Item Name="DisgustingToilet">このトイレは嫌です</Item>
+		<Item Name="NoToiletPrivacy">このトイレはプライバシーに配慮されていません</Item>
+		<Item Name="NoSitting">どこにも座る場所がありません</Item>
+		<Item Name="BadCoffee">このコーヒーはまずい</Item>
+		<Item Name="GoodCoffee">このコーヒーはとても美味しい</Item>
+		<Item Name="LowerHealthInsurance">私が怪我や病気に鳴った際の健康保険が必要です</Item>
+		<Item Name="LowerLifeInsurance">私がいつ死んでも生命保険が支払われる必要があります</Item>
+		<Item Name="LowerPension">私が引退した時のための年金を必要としています</Item>
+		<Item Name="MissingToiletWarning">従業員はトイレを探しています</Item>
+		<Item Name="ServerLoadWarning">あなたのサーバは配信の負荷を許容できません</Item>
+		<Item Name="ServerItemLoadWarning">あなたのサーバは {0} からの負荷を許容できません</Item>
+		<Item Name="BoughtOutProducts">あなたは 合計 {0} 製品のライセンスを得ました</Item>
+		<Item Name="LowCompatWarning">チーム {0} は従業員同士の相性に問題があります</Item>
+		<Item Name="ContractIncomeMsg">契約先から経費として {0} 入金されました</Item>
+		<Item Name="VSyncWarning">Vsyncをオフにして長時間使用すると過熱によってグラフィックカードが破損する恐れがあります。よろしいですか？</Item>
+		<Item Name="RoomLowEnv">この部屋は退屈です</Item>
+		<Item Name="FurnitureBlockedStaff">従業員が辿り着けない設備があります</Item>
+		<Item Name="DesignDetailBoxNew">開発期間: {3}
+アーティストの割合: {7}
+予想の最高品質: {0}
+革新性: {4}
+安定性: {5}
+ユーザビリティ性: {6}
+OS カバレージ: {1}%
+ライセンス費用: {2}
+要求チーム規模: {8}</Item>
+		<Item Name="Available contracts">利用可能な契約</Item>
+		<Item Name="Finished contracts">満了した契約</Item>
+		<Item Name="ContractEarly">契約より{0} か月早く納品</Item>
+		<Item Name="ContractLate">契約より{0} か月遅く納品</Item>
+		<Item Name="ContractOnTime">契約通り納品</Item>
+		<Item Name="CloneToolTitle">複製ツール</Item>
+		<Item Name="CloneToolDesc">選択された部屋を複製する場合に使用します</Item>
+		<Item Name="ActionRoomUnpair">部屋の割り当て解除</Item>
+		<Item Name="ActionRoomPair">部屋の割り当て</Item>
+		<Item Name="Hire IT-support">IT事業者を雇用する</Item>
+		<Item Name="ComplaintDialogInfo">名前: {0}
+年齢: {1}
+役割: {2}
+チーム: {3}
+勤続年数: {4}</Item>
+		<Item Name="Complaints">不満の内容</Item>
+		<Item Name="Current salary">現在の月給</Item>
+		<Item Name="Demanded salary">要求された月給</Item>
+		<Item Name="Accept demand">要求を受け入れる</Item>
+		<Item Name="Fire employee">従業員を解雇する</Item>
+		<Item Name="PrematureDelayWarning">Are you sure you want to end the delay phase?
+Ending the delay phase prematurely will often extend the beta phase due to the amount of additional bugs.</Item>
+	</Alpha4.6>
+	<Alpha4.7>
+		<Item Name="DesignProductTeamSizeHintLarge">選択されたチームにはこの開発は規模が大きすぎるようです。
+それでも続けますか？</Item>
+		<Item Name="CloneComplexityWarning">あなたが複製しようとしている内容は大きすぎるようです。
+それでも続けますか？</Item>
+		<Item Name="UnreachableFurniture">従業員はこの{0}にたどり着けません。
+必ず他の道を設けて下さい。</Item>
+		<Item Name="UnreachableParking">この駐車場に到達できません。
+必ず主要道路に接して下さい。</Item>
+		<Item Name="EmployeeStuck">{0}が帰宅できません。
+障害物を取り除いて必ず建物に通り道を作って下さい。</Item>
+		<Item Name="Coverage">カバレージ</Item>
+	</Alpha4.7>
+	<Alpha5.1>
+		<Item Name="I agree">許可する</Item>
+		<Item Name="Validate">村</Item>
+		<Item Name="Forest">森林</Item>
+		<Item Name="City">都市</Item>
+		<Item Name="StockBuyOutError">すべての持ち株を売るにはすべての自社株を保有しなければなりません</Item>
+		<Item Name="CompanyDetailInfo">価値: {0}
+シェア: {1}
+創業日: {2}
+自社製品: {3}
+保有ライセンス: {4}
+買収した企業: {5}</Item>
+		<Item Name="Electricity">電力</Item>
+		<Item Name="Water">水</Item>
+		<Item Name="Maintenance">メンテナンス</Item>
+		<Item Name="HostingDeal">Hosting for {0}</Item>
+		<Item Name="IPDeal">{0} IP</Item>
+		<Item Name="WorkDeal">{1} for {0}</Item>
+		<Item Name="Deals">業務提携</Item>
+		<Item Name="Description">概要</Item>
+		<Item Name="Client">クライアント</Item>
+		<Item Name="Offer">オファー</Item>
+		<Item Name="ServerDealDetail">大きさ: {0}
+毎時消費電力: {1}
+必要ユニット数: {2}</Item>
+		<Item Name="MainDealsDesc">Strike deals with other companies and beat them from the inside
+You need a reception to receive offers</Item>
+		<Item Name="IPDealActionBuy">このライセンスを {0} で購入しますか？</Item>
+		<Item Name="IPDealActionSell">ライセンス{0} を {1}に売却しますか？</Item>
+		<Item Name="IPDealActionFail">誰もこのライセンスを購入しようとはしません</Item>
+		<Item Name="Trade IP">ライセンスの取引</Item>
+		<Item Name="SheetDeals">業務提携</Item>
+		<Item Name="Receptionist">受付案内</Item>
+		<Item Name="Guest">ゲスト</Item>
+		<Item Name="Hire Receptionist">受付案内を雇用する</Item>
+		<Item Name="CompanyNameWarning">会社名を入力して下さい。
+このまま続行しますか？</Item>
+		<Item Name="ActionConnectServers">接続サーバ</Item>
+		<Item Name="WireMode">ワイヤモード</Item>
+		<Item Name="GuestCompany">{1}の代表として来客した{0}氏</Item>
+	</Alpha5.1>
+	<Alpha5.2>
+		<Item Name="SupportWorkSlowWarning">あなたの従業員では{0}のサポートを維持できません</Item>
+		<Item Name="SupportWorkCancelWarning">サポートの取り消しは顧客の怒りを買います。
+それでもサポートを取り消しますか？</Item>
+	</Alpha5.2>
+	<Alpha5.3>
+		<Item Name="AcceptAllWages">賃上げを認めて閉じる</Item>
+		<Item Name="AcceptAllWagesWarning">
+平均で {0}昇給します、毎月{1} の増加です。
+賃上げを認めますか？
+</Item>
+		<Item Name="FurnitureQueue">{0} 人が順番待ち</Item>
+		<Item Name="Upcoming events">今後のイベント</Item>
+		<Item Name="UpcomingEvDesc">来月のイベントを見るにはここをクリックしてください。重要なイベントはアイコンが赤く光ります。</Item>
+		<Item Name="RetireEventMsg">来月 {1} チームの{0} が退職します。 {3} 年間{2} に勤め上げました。</Item>
+		<Item Name="VacationEventMsg1">来月{0} は休暇の予定です。また{1} 人が休暇を未消化です</Item>
+		<Item Name="VacationEventMsg2">来月は誰も休暇の予定がありません。しかし{0} 人が休暇を未消化です</Item>
+		<Item Name="ReleaseEventMsg">来月に{0} は『{2} 』と名付けられた{1} の製品のリリースを予定しています</Item>
+		<Item Name="ExceptionNotificationTip">エラーが発生しました！</Item>
+		<Item Name="ExceptionNotificationTip2">詳細を見る</Item>
+		<Item Name="ExceptionNotificationMsg">エラーが発生して申し訳ありません。
+不安定になったり、データ破損を引き起こしかねません。（早期アクセス版なのでお許し下さい）
+オートセーブではなく保存ファイルを開き直しこまめにセーブすることをおすすめします。
+お時間があればエラーを見るボタンを押して"SoftwareInc@Coredumping.com"にエラー報告をしてください。
+本当にご不便をおかけして申し訳ございませんでした。
+</Item>
+		<Item Name="UI size">UI サイズ</Item>
+		<Item Name="NoCompanyName">会社名を入力してください</Item>
+		<Item Name="Save picture">画像を保存する</Item>
+		<Item Name="Tweet picture">画像をツイートする</Item>
+		<Item Name="TwitterDesc">何をツイートしますか？</Item>
+		<Item Name="DefaultTweet">Look at my software empire! #SoftwareInc</Item>
+		<Item Name="Enter pin">ピンを入力してください</Item>
+		<Item Name="TweetError">あなたの画像をツイートしようとしましたがエラーが発生しました。</Item>
+		<Item Name="SteamImgQ">スクリーンショットをあなたのSteamアカウントに保存しますか？</Item>
+	</Alpha5.3>
+	<Alpha5.4>
+		<Item Name="WindowPref">画面の環境設定</Item>
+		<Item Name="Reset">リセット</Item>
+		<Item Name="Upcoming releases">もうすぐリリース</Item>
+		<Item Name="UpcomingRelDesc">あなたの会社からリリースされる製品の情報が確認できます</Item>
+		<Item Name="Close all windows">すべてのウィンドウを閉じる</Item>
+		<Item Name="CloseAllWindowWarning">すべてのウィンドウを閉じますか？</Item>
+		<Item Name="Only sequels">唯一の続編</Item>
+		<Item Name="Select fallback">撤退を選択</Item>
+		<Item Name="Fallback">撤退する</Item>
+		<Item Name="Project">プロジェクト</Item>
+		<Item Name="Desert">砂漠</Item>
+		<Item Name="Tundra">ツンドラ</Item>
+		<Item Name="Paused">一時停止</Item>
+	</Alpha5.4>
+	<Alpha6>
+		<Item Name="ActionDismantle">解体する</Item>
+		<Item Name="Dismantle">解体</Item>
+		<Item Name="DismantleMsg">{0} 個の建具を解体してよろしいですか？</Item>
+		<Item Name="DismantleMsg2">{0}個の建具を解体します</Item>
+		<Item Name="WallSegments">建具</Item>
+		<Item Name="AngleSnapDesc">設備の向きを変える</Item>
+		<Item Name="DoubleGridSize">倍のグリッドサイズ</Item>
+		<Item Name="HalveGridSize">半分のグリッドサイズ</Item>
+		<Item Name="ChangeGridAnchor">グリッドの基準点を変更する</Item>
+		<Item Name="ResetGrid">グリッドを初期化する</Item>
+		<Item Name="ActionMergeRooms">部屋を繋げる</Item>
+		<Item Name="Turn furniture clockwise">設備を時計回りに回します</Item>
+		<Item Name="Turn furniture counter clockwise">設備を反時計回りに回します</Item>
+		<Item Name="Grid">グリッド</Item>
+		<Item Name="ActionSelectWall">建具の全選択</Item>
+		<Item Name="ActionDuplicate">複製</Item>
+		<Item Name="RoomNarrowError">部屋の広さは1.0以上必要です</Item>
+		<Item Name="RoomIntersectError">壁が交差することはできません</Item>
+		<Item Name="RoomInsideError">部屋の中に部屋を作れません</Item>
+		<Item Name="FurnitureSnapError">指定された所に配置して下さい</Item>
+		<Item Name="RoomInRoomError">部屋の中に部屋を作れません。</Item>
+		<Item Name="Construct rectangle room">四角形の部屋を作成</Item>
+		<Item Name="CorruptSaveFile">
+この保存ファイルは壊れています。
+おそらく旧バージョンのファイルなのでサポートされていません。</Item>
+	</Alpha6>
+	<Alpha6.4>
+		<Item Name="DynamicSegmentHint">クリックした後にドラッグすると設備を繋げて設置できます</Item>
+	</Alpha6.4>
+	<Alpha6.5>
+		<Item Name="RotateFurnHint2">クリックした後にドラッグすると設備が回転します
+もしくは {0} キー {1}キーで回転します</Item>
+		<Item Name="Delete">削除</Item>
+		<Item Name="DeleteSaveConf">この保存ファイルを削除してよろしいですか？
+削除すると元には戻りません！</Item>
+		<Item Name="DeleteFail">保存ファイルの削除に失敗しました。
+ユーザー権限を確認して下さい。</Item>
+		<Item Name="AskMarketingOption">リリースの広報について</Item>
+	</Alpha6.5>
+	<Alpha6.11>
+		<Item Name="Overall skill">一般能力</Item>
+		<Item Name="Skill interview">一般能力面接</Item>
+		<Item Name="Specialization interview">専門能力面接</Item>
+		<Item Name="Personality interview">人格面接</Item>
+		<Item Name="SSAA">スーパーサンプリングアンチエイリアス</Item>
+		<Item Name="SSAAHint">スーパーサンプリングアンチエイリアス描写によって二重解像度でのゲームでもエッジを滑らかに表示します</Item>
+		<Item Name="Event">イベント</Item>
+		<Item Name="InsuranceDescription">1人当たりの生命保険: {0}
+1人当たりの健康保険: {1}
+1人当たりの年金: {2}</Item>
+		<Item Name="Payments">支払</Item>
+		<Item Name="Employee">従業員</Item>
+	</Alpha6.11>
+	<Alpha6.12>
+		<Item Name="Loans">ローン</Item>
+	</Alpha6.12>
+	<Alpha6.13>
+		<Item Name="KeyBindingHint">何かボタンを押してください...</Item>
+		<Item Name="Context menu">メニューを開く</Item>
+		<Item Name="Rotate camera">カメラを回転する</Item>
+	</Alpha6.13>
+	<Alpha6.14>
+		<Item Name="Segment">壁</Item>
+	</Alpha6.14>
+	<Alpha6.18>
+		<Item Name="SaveDeletedError">この保存ファイルは既にこのパソコンに存在しません</Item>
+		<Item Name="ExteriorWallFurn">外壁に設置してください</Item>
+		<Item Name="BasementFurnError">この設備は地下に設置できません</Item>
+		<Item Name="RoomTempratureWarning2">温度が高すぎます。
+換気を設けてください</Item>
+		<Item Name="TemperatureOveruse">冷暖房機が過負荷です。
+建物に冷暖房機を追加してください。</Item>
+	</Alpha6.18>
+	<Alpha6.21>
+		<Item Name="Selection">選択</Item>
+		<Item Name="Select multiple">複数選択</Item>
+	</Alpha6.21>
+	<Alpha6.22>
+		<Item Name="FurnitureInLimitRoomWarning">設備を使用許可されていない従業員が部屋に{0} 人います</Item>
+		<Item Name="EmployeeArtWorkWarning">{0} は {1} の開発において美術力がありません。リリース遅延などの可能性があります。</Item>
+		<Item Name="EmployeeProgrammingWorkWarning">{0} は{1} の開発においてプログラミングのコードが書けません。リリース遅延やバグなどの原因になる可能性があります</Item>
+		<Item Name="EmployeeDesignWorkWarning">{0}は{1} の開発において設計力が不十分です。リリース遅延やエラーの原因になる可能性があります。</Item>
+		<Item Name="RoadBusSignError">バス停前の道路は変更できません</Item>
+	</Alpha6.22>
+	<Alpha7.1>
+		<Item Name="Units">価値</Item>
+		<Item Name="Perception">知覚</Item>
+		<Item Name="License cost">ライセンス 費用</Item>
+		<Item Name="Gross">総額</Item>
+		<Item Name="Price">価格</Item>
+		<Item Name="Active users">アクティブ ユーザー</Item>
+		<Item Name="Category">カテゴリ</Item>
+		<Item Name="ETA">開発期間</Item>
+		<Item Name="Artists needed">アーティストが必要な割合 </Item>
+		<Item Name="Expected interest">注目度 予想</Item>
+		<Item Name="Consumer reach">売上 予想</Item>
+		<Item Name="License costs">ライセンス 費用</Item>
+		<Item Name="Recommended team size">要求チーム規模</Item>
+		<Item Name="Traded">Traded</Item>
+		<Item Name="Fans">ファン</Item>
+		<Item Name="FansInfo">ファンは直接売り上げに繋がりませんが、多くのファンを持つと市場の認知が早く得られます。</Item>
+		<Item Name="Business reputation">信用度</Item>
+		<Item Name="BusinessRepInfo">ソフトウェア業界でのあなたの信用度です。それぞれの星は、従業員の応募数や契約、取引、流通などに影響します。</Item>
+		<Item Name="PricingButtonTip">Click here to use the suggested price for this software</Item>
+		<Item Name="Market recognition">市場の認知度</Item>
+		<Item Name="MarketRecognitionInfo">市場の認知度は売り上げを左右します。
+つまり、どれほどよく各ソフトウェアが知られているかが、
+どれほどよく製品が売れるかを左右します</Item>
+		<Item Name="Bandwidth">帯域</Item>
+		<Item Name="Reflections">反射</Item>
+		<Item Name="ActionChange Room Team">チーム切り替え</Item>
+		<Item Name="Screen Space Reflections">画面反射</Item>
+		<Item Name="SSRHint">光沢のある表面を反映して作るにはハイエンドのグラフィックカードが必要です。</Item>
+		<Item Name="Please wait">お待ちください</Item>
+		<Item Name="PicTakingError">写真撮影に失敗しました。解像度を小さくして下さい</Item>
+		<Item Name="Performance tip">パフォーマンスのヒント</Item>
+		<Item Name="Hover for details">詳細表示</Item>
+		<Item Name="PerformanceTipDetail">効果のほとんどのパフォーマンスは、画面の解像度ではなく、画面上のオブジェクトの複雑さに依存します。 SSAAは、効果のほとんどのパフォーマンスへの影響を倍増します</Item>
+		<Item Name="Impact">効果</Item>
+		<Item Name="Very high">とても高い</Item>
+		<Item Name="High">高い</Item>
+		<Item Name="Low">低い</Item>
+		<Item Name="DevMarketingHint">今すぐ {0} の広報活動を開始しますか？
+開発中でも広告活動によって
+売り上げを伸ばしたりライバルに影響を与えることができます。
+</Item>
+		<Item Name="MarketingError">この製品において広報活動をしています。</Item>
+		<Item Name="KeyBindingWarning">"{0}" はすでに"{1}"です。あなたは練り直しますか？</Item>
+		<Item Name="Request">要求</Item>
+		<Item Name="Retail price">小売価格</Item>
+		<Item Name="Priority">プライオリティ</Item>
+		<Item Name="Change software name">名称変更</Item>
+		<Item Name="MarketingProduct">{0} を広報活動中</Item>
+		<Item Name="Time v Innovation">斬新さにかける時間</Item>
+		<Item Name="Time v quality">品質にかける時間</Item>
+		<Item Name="Budget v quality">品質にかける予算</Item>
+		<Item Name="AutoDevProjDetails2">現在のプロジェクトの詳細:
+名前: {0}
+タイプ: {1}
+カテゴリー: {2}</Item>
+		<Item Name="OldSaveGameError">古いバージョン({0})のファイルを読み込もうとしています。ご使用の({1})とは互換性が保たれていません。</Item>
+	</Alpha7.1>
+	<Alpha7.2>
+		<Item Name="FXAA">FXAA</Item>
+		<Item Name="FXAADetails">Fast Approximate Anti-Aliasing, basic anti-aliasing. Keeps edges from looking pixelated</Item>
+		<Item Name="SMAA">SMAA</Item>
+		<Item Name="SMAADetails">Subpixel Morphological Anti-Aliasing, more advanced anti-aliasing. Keeps edges from looking pixelated</Item>
+		<Item Name="SMAADetailsError">Subpixel Morphological Anti-Aliasing, not supported on DirectX9</Item>
+		<Item Name="SSAADetails">Super-Sampling Anti-Aliasing. Renders the game in higher resolution to smooth out edges as much as possible (Requires a high-end graphics card)</Item>
+		<Item Name="WorkItemCancelConf">{0}を取り消してよろしいですか？</Item>
+		<Item Name="Shadow quality">影の設定</Item>
+		<Item Name="Units sold">販売総数</Item>
+	</Alpha7.2>
+	<Alpha7.3>
+		<Item Name="Off">オフ</Item>
+		<Item Name="ActionResetDefaultStyle">初期状態に戻す</Item>
+		<Item Name="ComputerWarning">コンピュータが遅くなってます。至急ITサポートを呼んでください。</Item>
+		<Item Name="NotificationGotoHint">詳細はクリック</Item>
+		<Item Name="Auto role">自動で選択</Item>
+	</Alpha7.3>
+	<Alpha7.4>
+		<Item Name="Topdown view">トップダウン表示</Item>
+	</Alpha7.4>
+	<Alpha7.5>
+		<Item Name="WorkPriorityHint">数字の大きいほうが優先順位が高いです</Item>
+		<Item Name="ShiftFurnHint">複数配置はシフトを押します</Item>
+		<Item Name="IPDealActionBuyFail">{0}は{1}が欲しいようですが、取引に余裕がありません</Item>
+		<Item Name="MarketingAmount1">なし</Item>
+		<Item Name="MarketingAmount2">低調</Item>
+		<Item Name="MarketingAmount3">注目</Item>
+		<Item Name="MarketingAmount4">好調</Item>
+		<Item Name="MarketingAmount5">最好調</Item>
+		<Item Name="ActionSelectBuildingFloor">建物の床を選択</Item>
+		<Item Name="PathwayBlocked">何かが邪魔して通れません</Item>
+		<Item Name="Sweep selection">掃除の選択</Item>
+	</Alpha7.5>
+	<FurnitureColorNames>
+		<Item Name="FCBase">基本色</Item>
+		<Item Name="FCFrame">枠の色</Item>
+		<Item Name="FCCasing">装飾の色</Item>
+		<Item Name="FCShade">傘の色</Item>
+		<Item Name="FCLighting">灯りの色</Item>
+		<Item Name="FCFabric">生地の色</Item>
+		<Item Name="FCBackground">背景色</Item>
+		<Item Name="FCBlades">中身の色</Item>
+		<Item Name="FCHandle">取っ手の色</Item>
+		<Item Name="FCPot">鉢の色</Item>
+		<Item Name="FCPad">パッドの色</Item>
+		<Item Name="FCBox">箱の色</Item>
+		<Item Name="FCMonitor">モニターの色</Item>
+		<Item Name="FCKeys">キーボードの色</Item>
+		<Item Name="FCShelf">本棚の色</Item>
+		<Item Name="FCSeat">椅子の色</Item>
+		<Item Name="FCSupport">台の色</Item>
+		<Item Name="FCHologram">ホログラムの色</Item>
+		<Item Name="FCBack">背面の色</Item>
+	</FurnitureColorNames>
+	<Alpha7.6>
+		<Item Name="Minigame">ミニゲーム</Item>
+		<Item Name="MinigameLifeError">You have already wasted all your lives</Item>
+		<Item Name="Lives left">Lives left</Item>
+		<Item Name="Multiplier">マルチプレイヤー</Item>
+		<Item Name="MinigameHint">Only recommended for small projects when starting out</Item>
+		<Item Name="UMLGameHint">Click to start
+
+Connect the boxes until all boxes in a group show 0
+
+You can't connect the same boxes twice
+
+You can make loops
+
+Don't let a box get to the center</Item>
+		<Item Name="CodeGameHint">Click to start
+
+Type the words on the screen
+
+You have to type the entire word once you start typing, you can't delete a letter
+
+When you complete a word, your score multiplier increases
+
+The multiplier resets when you mistype a letter or when a word reaches the bottom
+
+Don't let the words reach the bottom</Item>
+		<Item Name="OwnLicense">Use own licenses</Item>
+	</Alpha7.6>
+	<Alpha7.7>
+		<Item Name="Hyping">詐欺</Item>
+		<Item Name="Fulfilling contract">契約満了</Item>
+		<Item Name="Time-limit">納期</Item>
+		<Item Name="Required quality">要求品質</Item>
+		<Item Name="Upfront">予算</Item>
+		<Item Name="When done">報酬</Item>
+		<Item Name="Penalty">違約金</Item>
+		<Item Name="Cost per bug">バグ違約金</Item>
+		<Item Name="Bug penalty">バグ割合</Item>
+		<Item Name="Late penalty">遅延違約金</Item>
+		<Item Name="Quality penalty">品質違約金</Item>
+		<Item Name="Cancel penalty">中止違約金</Item>
+		<Item Name="Net profit">純利益</Item>
+		<Item Name="Delivered">配信</Item>
+		<Item Name="Max bandwidth">最大帯域幅</Item>
+		<Item Name="Look again">見直し</Item>
+		<Item Name="LookAgainPrompt">費用が{0}掛りますが、もう一度探しますか？</Item>
+	</Alpha7.7>
+	<Alpha8.1>
+		<Item Name="FeatureUnlockWarning">この機能は {0}に解除されます。</Item>
+		<Item Name="FeatureDependencyWarning">この機能は {0}に依存してます。その機能をはじめに選択して下さい。</Item>
+		<Item Name="FeatureFromWarning">この機能は {0}に取って代わられています。</Item>
+		<Item Name="FeatureDependencyUnlockWarning">この機能は {1}から {0}に依存してますが、それはまだ解除されていません。</Item>
+		<Item Name="FeatureDependencyMarketWarning">この機能は{1}から {0}に依存しています、それはまだ市場では入手可能ではありません。</Item>
+		<Item Name="FeatureDependencyPickedWarning">この機能は {0}に依存していますが、 あなたが選択した{1}のために利用可能ではありません。</Item>
+		<Item Name="FeatureDependencyOSWarning">全てのサポートされているOSは、機能を解除した{0}が必要です。  </Item>
+		<Item Name="SoftwareSupportWaning">{0}({1})という製品はリリースしてファンが気にも留めなくなってからしばらく経過しています。</Item>
+		<Item Name="SheetRoyalties">印税</Item>
+		<Item Name="Royalties">印税</Item>
+		<Item Name="Royalty">印税</Item>
+		<Item Name="Research">研究</Item>
+		<Item Name="Researching">研究</Item>
+		<Item Name="ResearchDesc">研究と特許は競争相手から使用料を発生させます。</Item>
+		<Item Name="Patent">特許</Item>
+		<Item Name="Patents">特許</Item>
+		<Item Name="Durability">耐久月</Item>
+		<Item Name="Work boost">仕事ブースト</Item>
+		<Item Name="Room boost">部屋ブースト</Item>
+		<Item Name="Mood">雰囲気</Item>
+		<Item Name="Horizontal parking">水平方向の 駐車場</Item>
+		<Item Name="Vertical parking">垂直方向の 駐車場</Item>
+		<Item Name="Heating">暖房</Item>
+		<Item Name="Cooling">冷房</Item>
+		<Item Name="ResearchCancelWarning">この研究を中止にしてもよろしいですか？全ての進歩を失うでしょう。</Item>
+		<Item Name="PatentExpiration">あなたの特許{1} {0}は有効期限が切れました。</Item>
+		<Item Name="PatentTooSlow">あなたより前にほかの会社がすでに{1}{0}の開発を終えていました。</Item>
+		<Item Name="Unlocks">解除</Item>
+		<Item Name="Researched">研究済み</Item>
+		<Item Name="CompanyMissingWarning">その会社は存在しません。</Item>
+		<Item Name="Find owner">オーナーを検索</Item>
+		<Item Name="Software">ソフトウェア</Item>
+		<Item Name="Port">ポート</Item>
+		<Item Name="Porting">ポート</Item>
+		<Item Name="PortTo"> {0}へのポート</Item>
+		<Item Name="UnsupportedProcWarning">あなたにはサポートされていないサーバープロセスがあります。</Item>
+		<Item Name="Max quality">最大品質</Item>
+		<Item Name="Fence">フェンス</Item>
+		<Item Name="Construct fence">フェンスを構築する</Item>
+		<Item Name="Construct rectangle fence">長方形のフェンスを構築する</Item>
+		<Item Name="ActionMaterial">部屋の建材</Item>
+		<Item Name="Drag camera">ドラッグカメラ</Item>
+		<Item Name="DownFloor">1階下がる。</Item>
+		<Item Name="UpFloor">1階上がる。</Item>
+		<Item Name="Salaries">給与</Item>
+		<Item Name="Force role">役割の固定</Item>
+		<Item Name="ForceRoleHint">その人を最強の役割でのみ仕事に従事させるように固定します。</Item>
+		<Item Name="Preferred age">好適な年齢</Item>
+		<Item Name="Education cooldown">Education cooldown</Item>
+		<Item Name="EducationCooldownHint">教育完了までどのくらい待つのか、一度にいくつかのコースを負の数を使って可能にしました。</Item>
+		<Item Name="SheetDividends">配当金</Item>
+		<Item Name="Dividends">配当金</Item>
+		<Item Name="ResearchPhase1">研究中</Item>
+		<Item Name="ResearchPhase2">試験中</Item>
+		<Item Name="ResearchPhase3">特許の申請中</Item>
+	</Alpha8.1>
+	<Alpha8.2>
+		<Item Name="NoResearch">現在、研究できるものはありません。</Item>
+	</Alpha8.2>
+	<Alpha8.3>
+		<Item Name="Own office">自分の会社</Item>
+		<Item Name="CodeMiniGameEnd">ゲームオーバー！
+
+続けるにはクリックして下さい</Item>
+		<Item Name="RoomAngleError2">壁の角度は{0}より大きくして下さい。</Item>
+		<Item Name="Hint">ヒント</Item>
+		<Item Name="Hints">ヒント</Item>
+		<Item Name="HintEmployeeAssign">備品の割り当ては、従業員と備品をシフト押しながら右クリックして複数を指定できます。</Item>
+		<Item Name="HintStaffAssign">部屋の割り当ては、従業員と部屋をシフトを押しながら右クリックして複数を指定できます。</Item>
+		<Item Name="HintMultipleBuild">設備や部屋を複製するときはシフトを押しながら選択すると複数を指定できます。</Item>
+		<Item Name="HintQuickSelect">１つの種類を選択したいときは、まず１つ目を選択して、その後にコントロールを押しながら選択すると指定が簡単です。</Item>
+		<Item Name="HintSelectFurnitureType">部屋にある全ての備品を交換したいときは、オプションから選択した備品を全選択する機能が便利です。</Item>
+		<Item Name="HintCopyColor">標準化する機能を使うと備品のスタイルを簡単に変更できます。まずスタイルを変更し備品を標準化して、複数選択して初期（標準化されている）状態に変更できます。</Item>
+		<Item Name="HintProductRelease">製品のリリースするときは他の製品のリリースを見逃さないように目を離さないようにしましょう。</Item>
+		<Item Name="HintFurnitureCopyMultiple">複数の備品を一度で複製したいときは、シフトを押しながら選択すると複数を複製できます。</Item>
+		<Item Name="HintEmployeeEducation">複数の従業員を一度に研修させたいときは、研修を開始する前に従業員を複数選択して下さい。</Item>
+		<Item Name="HintEmployeeSelection">特定の職種の従業員の指定をするときは、まず１人目を選択して、その後にコントロールを押しながら選択すると指定が簡単です。</Item>
+		<Item Name="HintAutoScaleSegment">壁の部品はコントロールを押しながら選択すると自動的に指定できます。</Item>
+	</Alpha8.3>
+	<Alpha8.4>
+		<Item Name="HintElevatorBeam">建築モードでは既存のエレベーターを選択するとエレベーターからガイドラインが表示されます。外の階にエレベーターを設置するときにズレにくいです。</Item>
+		<Item Name="HRHireBudgetWarning">チーム{0}において、これ以上従業員を雇用することは予算上できません。 </Item>
+		<Item Name="PortNonOSError">この製品はオペレーションシステムに依存していません。</Item>
+		<Item Name="ResearchOwnedError">これはすでに研究済みです。</Item>
+		<Item Name="SoftwareSoftwareDependencyWarning">このソフトウェアは {1}が開発されるまでお預けです。 他の{1}を選択して下さい。 </Item>
+		<Item Name="SoftwareFeatureError">開発を開始するには少なくとも１つは機能を必要とします。</Item>
+	</Alpha8.4>
+	<Alpha8.5>
+		<Item Name="Bank">資産</Item>
+		<Item Name="HintGridSnapToWall">あなたが壁にグリッドをスナップするには建築ボタンの上の基準点を変更するボタンを使用します。角度のついた壁に家具を揃えるのに役に立ちます。 </Item>
+	</Alpha8.5>
+	<Alpha8.6>
+		<Item Name="Upload">アップロード</Item>
+		<Item Name="Steam Workshop">Steam Workshop</Item>
+		<Item Name="SteamWorkshopHint">ここをクリックするとSteam WorkshopにMODをアップロードを始めます。</Item>
+		<Item Name="FailedSteamUpload">MODのアップロードに失敗しました...エラーコード： {0}</Item>
+		<Item Name="SuccessSteamUpload">MODのアップロードに成功しました！あなたのMODが非表示になっていないか確認して下さい。</Item>
+		<Item Name="SteamUploadDenied">あなたはSteam Workshopにこの MOD をアップロードする権限がありません。</Item>
+		<Item Name="SteamUploadFileType">別のファイル形式 {0}が見つかりました。の関連するファイルだけをアップロードして下さい。</Item>
+		<Item Name="SteamUploadConfirmation">このMODをSteam Workshopへアップロードしてよろしいですか？自身の作品以外はアップロードをご遠慮下さい。</Item>
+		<Item Name="HintWorkItemActions">左クリックしてドラッグするともう一度注文できますし、右クリックすると折りたためます。</Item>
+		<Item Name="Uploaded">アップロード済み</Item>
+	</Alpha8.6>
+	<Alpha8.7>
+		<Item Name="BlueprintPrompt">設計図の名前を選択して下さい。</Item>
+		<Item Name="BlueprintPromptTitle">設計図名</Item>
+		<Item Name="BlueprintPromptDefault">私の設計図</Item>
+		<Item Name="BlueprintPromptError">すでにその名前は使用されています。</Item>
+		<Item Name="BlueprintButton">建物の設計図</Item>
+		<Item Name="BlueprintButtonDesc">事前作製や事前取付のリストから選択して下さい。</Item>
+		<Item Name="SaveBlueprint">この部屋の設計を保存する。</Item>
+		<Item Name="Blueprints">設計図</Item>
+		<Item Name="Build">建てる</Item>
+		<Item Name="BlueprintSaveError">設計図の保存に失敗しました...エラーコード： {0}</Item>
+		<Item Name="BlueprintSteamDelete">Steam Workshopの作品はサブスクリプションの解除をして下さい。もしあなたがWorkshopにアップロードしたのなら手動で図面フォルダ（Blueprints)から削除して下さい。</Item>
+	</Alpha8.7>
+	<Alpha8.8>
+		<Item Name="Square meters">平方メートル</Item>
+		<Item Name="Building cost">建設費用</Item>
+		<Item Name="Furniture cost">設備費用</Item>
+		<Item Name="Computers">パソコン</Item>
+		<Item Name="Incompatible furniture">互換性のない備品</Item>
+		<Item Name="Distribution">配信</Item>
+		<Item Name="Build Mode">建設モード</Item>
+		<Item Name="Welcome">ようこそ</Item>
+		<Item Name="Customization">カスタム化</Item>
+		<Item Name="Design work">デザイン作業中</Item>
+		<Item Name="Alpha work">アルファ作業中</Item>
+		<Item Name="Support work">サポート作業中</Item>
+		<Item Name="Hiring">雇用</Item>
+		<Item Name="TutorialPost">{0} の チュートリアル</Item>
+		<Item Name="TutorialPrompt">Would you like to begin the {0} tutorial?</Item>
+		<Item Name="Tutorial">チュートリアル</Item>
+		<Item Name="Not now">今は必要ない</Item>
+		<Item Name="Never">もう必要ない</Item>
+		<Item Name="Disable all">チュートリアルをやめる</Item>
+		<Item Name="Skip">スキップ</Item>
+		<Item Name="End">終了</Item>
+		<Item Name="CancelTutorial">チュートリアルをやめてもよろしいですか？</Item>
+		<Item Name="ModEnableError">選択されたMODはこのモードと互換性がありません。</Item>
+		<Item Name="Preparing">準備中</Item>
+		<Item Name="Uploading">アップロード中</Item>
+		<Item Name="Committing">コミット中</Item>
+	</Alpha8.8>
+	<Alpha8.9>
+		<Item Name="Noise reduction">騒音軽減</Item>
+		<Item Name="StressWarning">従業員のストレスが溜まっています。長時間労働や多くの仕事をさせて酷使しないで下さい。食堂を併設したり帰宅させたりしてストレスを解消させましょう。</Item>
+		<Item Name="SocialProblem">孤独を感じています。</Item>
+		<Item Name="SocialWarning">従業員が孤独を感じています。みんなと打ち解ける環境がありません。開放的な環境や食堂の併設、またはチームで会議をしたり、会話が増える備品を置いて解決しましょう。</Item>
+		<Item Name="Stress">ストレス</Item>
+		<Item Name="Social">社交</Item>
+		<Item Name="Independent">独立志向</Item>
+		<Item Name="Hard worker">ハードワーカー</Item>
+		<Item Name="Fast learner">物覚えがいい</Item>
+		<Item Name="Lazy">怠惰</Item>
+		<Item Name="Stressed">ストレス過敏</Item>
+		<Item Name="IndependantVsSocial">社交的な従業員はリーダー向きですが、内向的な従業員は黙々と作業をします。</Item>
+		<Item Name="LazyVsStressed">生真面目な従業員は働きすぎて体調を崩しがちですが、不真面目は出来るだけサボろうとします。</Item>
+		<Item Name="HardWorkVsFastLearn">不器用な従業員は常に110％の力で仕事をしますが、器用な従業員は新しいスキルを覚えます。</Item>
+		<Item Name="InHouseWarning">社内用の製品の開発を開始すると、販売やライセンスによる利益は得られません。
+それでも開発しますか？</Item>
+		<Item Name="InHouseMarketing">社内用の製品は販売できません。</Item>
+		<Item Name="RotateRoomHint">建物を回転させるには {0} か {1}キーを押して下さい。</Item>
+		<Item Name="Appx bandwidth">Appx帯域幅</Item>
+	</Alpha8.9>
+	<Alpha8.10>
+		<Item Name="Zoom">ズーム</Item>
+		<Item Name="Gamma">ガンマ</Item>
+		<Item Name="CleaningBlocked">この部屋に清掃員がたどり着けません。</Item>
+		<Item Name="Head">頭部</Item>
+		<Item Name="Torso">胴体</Item>
+		<Item Name="Legs">脚</Item>
+		<Item Name="Accessories">アクセサリ</Item>
+		<Item Name="Business Casual">カジュアル</Item>
+		<Item Name="Full Beard">あごヒゲ</Item>
+		<Item Name="Stubble">無精ヒゲ</Item>
+		<Item Name="Mens Blouse">メンズブラウス</Item>
+		<Item Name="Mens Pants">メンズパンツ</Item>
+		<Item Name="Glasses">眼鏡</Item>
+		<Item Name="Knot">髪留め</Item>
+		<Item Name="Rouge">ルージュ</Item>
+		<Item Name="Womens Blouse">レディスブラウス</Item>
+		<Item Name="Womens Pants">レディスパンツ</Item>
+		<Item Name="HintTeamSizeEffectiveness">Putting more people on a project than needed does not necessarily make development faster and might actually decrease effectiveness</Item>
+		<Item Name="Womens Hoodie">レディスパーカー</Item>
+		<Item Name="Mens Hoodie">メンズパーカー</Item>
+		<Item Name="Womens Shirt">レディスシャツ</Item>
+		<Item Name="Mens Shirt">メンズシャツ</Item>
+		<Item Name="Womens T-Shirt">レディスＴシャツ</Item>
+		<Item Name="Mens T-Shirt">メンズＴシャツ</Item>
+		<Item Name="Long Skirt">ロングスカート</Item>
+		<Item Name="Short Skirt">ミニスカート</Item>
+		<Item Name="Trumpet Pants">トランペットパンツ</Item>
+		<Item Name="Cargo Shorts">カーゴショーツ</Item>
+		<Item Name="Mens Shorts">メンズショーツ</Item>
+		<Item Name="Trousers">ズボン</Item>
+		<Item Name="Long Curly Hair">ロングカーリーヘア</Item>
+		<Item Name="Long Hair">ロングヘア</Item>
+		<Item Name="Semi-Long Hair">セミロング</Item>
+		<Item Name="Afro">アフロ</Item>
+		<Item Name="Hire Cook">料理人を雇う</Item>
+		<Item Name="Cook">料理人</Item>
+		<Item Name="Preparing food">食材</Item>
+		<Item Name="Serving food">料理</Item>
+		<Item Name="Canteen">水筒</Item>
+		<Item Name="NameChangeTitle">新しい名前</Item>
+		<Item Name="NameChangePrompt">従業員の名前:</Item>
+		<Item Name="Change name">名前の変更</Item>
+		<Item Name="DeleteKeyHintHint">従業員や備品をお払い箱にするためにショートカットを設定できます。標準ではDELETEキーです。</Item>
+		<Item Name="SaveFailIOError">ゲームを保存できませんでした。エラーメッセージ:
+{0}</Item>
+		<Item Name="Currency short form">通貨の略字表記</Item>
+		<Item Name="MillionPost">00万</Item>
+		<Item Name="BillionPost">0億</Item>
+		<Item Name="UpdateBlueprint">設計図のアップデート</Item>
+		<Item Name="SplitUnsupported">この分割によってサポートできない部屋ができます。</Item>
+		<Item Name="ModActivateError">MODを有効化できませんでした。詳細はログを確認して下さい。</Item>
+		<Item Name="HexColor">Hex</Item>
+		<Item Name="BlueprintDeleteConfirmation">設計図: {0}を消去してよろしいですか？</Item>
+		<Item Name="TeamDisbandConfirmation">チーム: {0}を解散してもよろしいですか？</Item>
+		<Item Name="Open console">コンソールを開く</Item>
+		<Item Name="Recommended designers">推奨された デザイナー</Item>
+		<Item Name="Recommended programmers">推奨された プログラマ</Item>
+		<Item Name="Recommended artists">推奨された アーティスト</Item>
+		<Item Name="LampTestHint">設備メニューの左下隅のバーを動かすことで、
+建築モードで照明の状況を確認できます。</Item>
+		<Item Name="CookStoveWarning">料理人が調理台を見つけることができません。
+それぞれ１つづつ調理台、冷蔵庫、トレイを用意して下さい。</Item>
+		<Item Name="ServerDelegateError">すでに起動しているサーバーについてプロセスを管理することはできません。</Item>
+		<Item Name="Cancel Deal">Cancel Deal</Item>
+		<Item Name="SteamUploadDirectoryError">Directoy does not exist: {0}</Item>
+		<Item Name="Meeting">ミーティング</Item>
+		<Item Name="Function">機能</Item>
+		<Item Name="Capacity">容量</Item>
+		<Item Name="Anchor grid">Anchor grid</Item>
+		<Item Name="Reset grid">Reset grid</Item>
+		<Item Name="Feedback">フィードバック</Item>
+		<Item Name="E-mail">メール</Item>
+		<Item Name="Message">メッセージ</Item>
+		<Item Name="Files">ファイル</Item>
+		<Item Name="Send">送信</Item>
+		<Item Name="MailInvalid">正しいメールアドレスを入力するか、空白のままにして下さい</Item>
+		<Item Name="ReportSuccess">レポートは正常に送信されました</Item>
+		<Item Name="ReportFailure">レポートの送信に失敗しました。もう一度、送信しますか？
+Error:</Item>
+		<Item Name="Include log file">ログファイルを含める</Item>
+		<Item Name="Include save file">セーブファイルを含める</Item>
+		<Item Name="Include PC specs">ＰＣの性能を含める</Item>
+		<Item Name="NoFeedbackError">50文字以内でメッセージを入力して下さい</Item>
+		<Item Name="CrashMessage">ゲームがクラッシュしました。開発者向けのクラッシュレポートを確認しますか？</Item>
+		<Item Name="ExceptionMessage">エラーを検出しました。開発者向けのエラーレポートを確認しますか？</Item>
+		<Item Name="MailPlaceholder">開発チームからの連絡を受けるためのアドレスを送りますか (任意)</Item>
+		<Item Name="ReportMessagePlaceholder">開発チームへ送信するメッセージを入力して下さい。</Item>
+		<Item Name="TryLaterConfirm">あなたの報告は保存されました。次にゲームを起動した際に、送信されます。</Item>
+		<Item Name="ReportDelayError">5分間に1度しか報告を送ることはできません。</Item>
+		<Item Name="Report">レポート</Item>
+		<Item Name="ScreenshotDev">スクリーンショットをレポート</Item>
+		<Item Name="SaveGameFail2">Failed saving game. The game will continue, but you might experience weird behavior or loss of data.
+The error has been logged. Do you wish to additionally send an error report to the developer?
+Sorry for the inconvenience.</Item>
+		<Item Name="LoadGameFail2">Failed loading game. The game will continue, but you might experience weird behavior or loss of data.
+The error has been logged. Do you wish to additionally send an error report to the developer?
+Sorry for the inconvenience.</Item>
+	</Alpha8.10>
+	<Alpha8.11>
+			<Item Name="FurnitureLoadError">A furniture named {0} was not present on your computer. The game will have to load your save file without this furniture, which might break the game.</Item>
+			<Item Name="StockLowBid">{0} is willing to offer {1}, do you want to take their offer?
+You bought the stock for {2} and it is currently worth {3}</Item>
+			<Item Name="InaccessibleRoom">This room is not accessible from the outside
+Please connect it using doors, elevators or stairs</Item>
+			<Item Name="Column widths">列幅</Item>
+			<Item Name="MonthLeft">あと {0} ヶ月</Item>
+			<Item Name="DayLeft">あと {0} 日</Item>
+			<Item Name="MonthNotLeft">{0} ヶ月の遅延</Item>
+			<Item Name="DayNotLeft">{0} 日の遅延</Item>
+			<Item Name="LastMonth">先月</Item>
+			<Item Name="LastDay">前日</Item>
+			<Item Name="ContractGoal">Goal: {0}%</Item>
+			<Item Name="ContractEarlyDay">{0} 日の前倒し</Item>
+			<Item Name="ContractLateDay">{0} 日の遅延</Item>
+			<Item Name="Mens Suit">メンズスーツ</Item>
+			<Item Name="Womens Suit">レディススーツ</Item>
+			<Item Name="Small moustache">小さな口ひげ</Item>
+			<Item Name="Moustache">口ひげ</Item>
+			<Item Name="Goatee">Goatee</Item>
+			<Item Name="Eye shadow">アイシャドウ</Item>
+			<Item Name="Mens Beanie">メンズニット帽</Item>
+			<Item Name="Womens Beanie">レディスニット帽</Item>
+			<Item Name="KeyBindError">Couldn't bind to pressed button</Item>
+			<Item Name="BoughtOutProductsStocks">You received {0} stocks and the rights to {1} products</Item>
+			<Item Name="WorkItemTeamFilter">Filter based on selected teams</Item>
+			<Item Name="Replace furniture">設備の置き換え</Item>
+			<Item Name="ActionReplaceFurn">設備の置き換え</Item>
+			<Item Name="InstallMods">インストールされたMOD</Item>
+			<Item Name="Idle employees">待機中の従業員</Item>
+			<Item Name="NotWorkingState">Not working</Item>
+			<Item Name="NoWork">何も割り振られていない</Item>
+			<Item Name="NoComputer">利用可能なコンピュータがありません</Item>
+			<Item Name="NotApplicable">割り振られたタスクに適性がありません</Item>
+			<Item Name="NoEffectiveness">環境により悪い影響を受けます</Item>
+			<Item Name="NoActiveWork">与えられたタスクは全て終えています</Item>
+			<Item Name="StressProblem">とても疲れている</Item>
+			<Item Name="Backup">バックアップ</Item>
+			<Item Name="BackupDesc">セーブファイルをバックアップへ上書きします</Item>
+			<Item Name="Load backup">バックアップから復元</Item>
+			<Item Name="LoadBackupMsg">セーブデータをバックアップから復元しようとしています。
+この操作を行って、本当によろしいですか？</Item>
+	</Alpha8.11>
+	<Alpha9.1>
+		<Item Name="LikeTeamWork">このチームで働くことができて本当によかった</Item>
+		<Item Name="DislikeTeamWork">このチームは居心地が悪い</Item>
+		<Item Name="JobSatisfaction">この職場に満足している</Item>
+		<Item Name="RoomAura">部屋の状態</Item>
+		<Item Name="TeamCompatibility">チームの互換性</Item>
+		<Item Name="OtherTeams">他のチーム</Item>
+		<Item Name="OwnOffice">自身のオフィス</Item>
+		<Item Name="linesofcode">{0} 行のコード</Item>
+		<Item Name="MBArt">{0} 画像</Item>
+		<Item Name="Refunds">払い戻し</Item>
+		<Item Name="Bias">バイアス</Item>
+		<Item Name="PositivePostfixBias">{0} 良いバイアス</Item>
+		<Item Name="NegativePostfixBias">{0} 悪いバイアス</Item>
+		<Item Name="BiasNone">バイアスがない</Item>
+		<Item Name="Peer review">ピア・レビュー</Item>
+		<Item Name="Review">レビュー</Item>
+		<Item Name="Anonymous">匿名</Item>
+		<Item Name="ReviewOf">{0} 件のレビュー</Item>
+		<Item Name="ReviewsWritten">{0} 件のレビューがあります</Item>
+		<Item Name="ReviewMessage">誰にピア・レビューの投稿を依頼しますか？
+ピア・レビューを外注するためには、 {0} の費用が必要です</Item>
+		<Item Name="MarketingDescAnnounce">製品のリリース日をできるだけ早くお知らせください。これにより、マーケティング活動の効果が高まります。 あまりにも遅れて製品をリリースしないようにしてください。</Item>
+		<Item Name="MarketingDescRelease">プレスリリースにより、あなたの製品は一般に公開されます。
+プレスリリースの効果を高めるためには、プレスリリースを行う前に設計段階か開発段階まで進めておく必要があります。
+各プレスリリースでは、次のプレスリリースの効果が低下するので、やや控えめにする必要があります。</Item>
+		<Item Name="MarketingDescBuild">製品のデモ版コピーを関係メディアへ配布することにより、先行してフォロワーを獲得できるでしょう。
+関係メディアがあなたの製品を気に入らない場合、フォロワーを失う可能性があることに注意するべきです。
+デモ版の反響は、デモ版を配布した翌日には新聞に報じられます。</Item>
+		<Item Name="MarketingDescHype">It's a good idea to maintain hype once you've gained followers, so they don't forget about your product.</Item>
+		<Item Name="MarketingDescPost">You should focus on getting your product mentioned as much as possible in the media once it is released.
+Marketing is an endless money sink and you're competing for attention with your direct competitors all the time.
+Set a budget to make sure you don't run out of money or leave it at 0 if you don't want to limit spending.</Item>
+		<Item Name="Writing press release">プレスリリースを入力する</Item>
+		<Item Name="Announce release date">プレスリリースの発表予定日</Item>
+		<Item Name="Press release">プレスリリース</Item>
+		<Item Name="Press build">プレスビルド</Item>
+		<Item Name="Hype">広告</Item>
+		<Item Name="FollowerAmount">{0} フォロワー</Item>
+		<Item Name="ReleaseDateError">先の日付を入力して下さい</Item>
+		<Item Name="PressText">テキスト</Item>
+		<Item Name="PressPicture">画像</Item>
+		<Item Name="PressVideo">動画</Item>
+		<Item Name="NoMarketingOptions">この製品にマーケティングオプションはありません</Item>
+		<Item Name="MockOSError">この製品がサポートされているOSがリリースされていないため、この製品をリリースすることはできません</Item>
+		<Item Name="MockOSPortWait">リリース待機中</Item>
+		<Item Name="DesignSafetyCheck">この製品を開発段階へ進めてもよろしいですか？設計が悪いと、製品の品質が悪くなり、バグや遅延を生じさせる恐れがあります</Item>
+		<Item Name="Project details">製品詳細</Item>
+		<Item Name="Current designers">現在の設計者</Item>
+		<Item Name="Current programmers">現在のプログラマ</Item>
+		<Item Name="Current artists">現在のアーティスト</Item>
+		<Item Name="Current any role">現在の庶務</Item>
+		<Item Name="Release date">リリース日</Item>
+		<Item Name="Started development">開発開始</Item>
+		<Item Name="BugsFixed">{0} 件のバグフィックス</Item>
+		<Item Name="BugsVerified">確認された {0} 件のバグ</Item>
+		<Item Name="TicketsQueued">未処理の {0} 件のチケット</Item>
+		<Item Name="TicketsMissed">取り逃がした {0} 件のチケット</Item>
+		<Item Name="Human resources">人員</Item>
+		<Item Name="Pick a leader">リーダーを選ぶ</Item>
+		<Item Name="HUD Frost">HUD Frost</Item>
+		<Item Name="HUDFrostHelp">Gives panels in the main HUD a frosted look</Item>
+		<Item Name="ProjectManagementDefaultName">プロジェクト名</Item>
+		<Item Name="Design teams">設計チーム</Item>
+		<Item Name="Development teams">開発チーム</Item>
+		<Item Name="Secondary dev teams">第二開発チーム</Item>
+		<Item Name="Support teams">サポートチーム</Item>
+		<Item Name="Pre-marketing teams">プレ・マーケティングチーム</Item>
+		<Item Name="Post-marketing teams">ポスト・マーケティングチーム</Item>
+		<Item Name="Development time">開発期間</Item>
+		<Item Name="Auto development">オート開発</Item>
+		<Item Name="AutoDevHelpTip">Activate this to make the leader come up with new products based on the last product released</Item>
+		<Item Name="OnlySequelHelpTip">Whether the leader should only create sequels to past projects rather than creating new IP</Item>
+		<Item Name="DevelopmentTimeHelpTip">How long to keep each project in development relative to the optimal time it would take to develop</Item>
+		<Item Name="Phase">フェイズ</Item>
+		<Item Name="Projects">プロジェクト</Item>
+		<Item Name="Info">情報</Item>
+		<Item Name="Queued">待機中</Item>
+		<Item Name="Followers">フォロワー</Item>
+		<Item Name="DesignDocumentAutoDevWarning">You currently don't have any running project management tasks</Item>
+		<Item Name="DesignDocumentAutoDevDesc">Click here to assign this project to a project management task</Item>
+		<Item Name="Next release">次のリリース</Item>
+		<Item Name="Designing">デザイン中</Item>
+		<Item Name="Developing">開発中</Item>
+		<Item Name="Handle marketing">マーケティング中</Item>
+		<Item Name="HandleMarketingTip">Let the project manager handle post marketing and setting the budget</Item>
+		<Item Name="Takeover">引き継ぎ</Item>
+		<Item Name="Action points">判断力</Item>
+		<Item Name="ActionPointTip">管理と設計にはリーダーの判断力が要求されます。リーダーの能力は、獲得しているスキルと役割により決定されます。</Item>
+		<Item Name="OwnLicenseTip">リーダーが新しいプロジェクトを開始する際に自社ライセンスにするかどうか</Item>
+		<Item Name="Single IP">単独IP</Item>
+		<Item Name="SingleIPTip">リーダーが単独IPを担当するかどうか。続編が既に開発されている場合に、前作を待機させるかどうか</Item>
+		<Item Name="Temporarily unavailable">今は利用できません</Item>
+		<Item Name="AutoDevMissingLeader">You need to pick a leader before you can continue</Item>
+		<Item Name="AutoDevNoLeaders">There are no leaders to choose from. Please hire a leader or make one of your current employees a leader</Item>
+		<Item Name="LateProductRelease">開発遅延により {0} 人のフォロワーを失いました</Item>
+		<Item Name="NewDebtLoss">あなたの会社は多大な負債を抱えています。{0} までに負債を解消しなければ、あなたの会社は破産を余儀なくされています</Item>
+		<Item Name="NewDebtLossPass">おめでとうございます。24時間が経過し、あなたの会社の負債は解消されています</Item>
+		<Item Name="ReviewError">ピア・レビューはアルファ期間中のみ利用可能です</Item>
+		<Item Name="Current floor">現在のフロア</Item>
+		<Item Name="Physical units">物理ユニット</Item>
+		<Item Name="Digital units">デジタルユニット</Item>
+		<Item Name="In stock">在庫</Item>
+		<Item Name="Various">様々な</Item>
+		<Item Name="Taken">撮影</Item>
+		<Item Name="Free">フリー</Item>
+		<Item Name="Guests">ゲスト</Item>
+		<Item Name="Deliveries">配送</Item>
+		<Item Name="Cooks">調理</Item>
+		<Item Name="ActionAssignParking">駐車場に配置</Item>
+		<Item Name="ActionSelectParkedPeople">ここに駐車している人を選択する</Item>
+		<Item Name="ActionSelectNearParking">隣接する駐車場を選択</Item>
+		<Item Name="Digital distribution">オンライン配信</Item>
+		<Item Name="DistributionFailCancel">安定した配信が行われていないため、 {0} は配信契約を解除しました</Item>
+		<Item Name="DistributionDealPrompt">{0} の配信手数料を設定して下さい。指定した数値を割合として、オンライン配信の手数料を受け取ることができます</Item>
+		<Item Name="DistributionOffer">オンライン配信のオファーを提案する</Item>
+		<Item Name="DistributionOfferMade">現在のオンライン配信の利益は {0}%です</Item>
+		<Item Name="Digital market share">オンラインマーケットのシェア</Item>
+		<Item Name="Open online store">オンラインストアをオープン</Item>
+		<Item Name="CancelDistribution">{0} とのオンライン配信契約を解除してもよろしいですか？</Item>
+		<Item Name="DistributionDealDenied">{0} はあなたのオファーを辞退しました</Item>
+		<Item Name="DistributionDealCooldown">あなたは別のオファーをする前に少なくとも1ヶ月間待たなければなりません</Item>
+		<Item Name="InvalidAmount">有効な金額を入力して下さい</Item>
+		<Item Name="CopiesOf">{0} 件の受注</Item>
+		<Item Name="Order copies">注文書</Item>
+		<Item Name="Physical copies sold">販売実績(オフライン)</Item>
+		<Item Name="Physical market share">マーケットシェア(オフライン)</Item>
+		<Item Name="ReleasePrintingPrompt">製品を物理的に販売するためには、製品のコピーを生産する必要があります。製品のコピーを生産せずに、オンライン配信をすることもできます。製品のコピーを生産しますか？リリースウィンドウでいつでもコピーを生産することができます。</Item>
+		<Item Name="CourierParkError">配送するための場所がありません。敷地に駐車場を設定して下さい</Item>
+		<Item Name="Start printing">コピーを製造する</Item>
+		<Item Name="Print">複製</Item>
+		<Item Name="Hire courier">配送を依頼する</Item>
+		<Item Name="Courier">配送</Item>
+		<Item Name="Product">製品</Item>
+		<Item Name="Per month">一ヶ月当たり</Item>
+		<Item Name="Deadline">納期</Item>
+		<Item Name="Goal">結果</Item>
+		<Item Name="Product print orders">製品の生産注文</Item>
+		<Item Name="MainDistributionDesc2">製品の生産とオンライン配信の管理を行う</Item>
+		<Item Name="Mirror room horizontally">水平方向に部屋を複製</Item>
+		<Item Name="Mirror room vertically">垂直方向に部屋を複製</Item>
+		<Item Name="InStockStorage">在庫+倉庫</Item>
+		<Item Name="MaintenanceDesc">Maintenance staff will ensure your building runs optimally by fixing your furniture. It's a good idea to keep them handy, as they will catch things beofre they break completely.</Item>
+		<Item Name="CleaningDesc">Cleaning staff will make sure the floors of your building are clean, thereby improving the work environment and keeping your employees happy</Item>
+		<Item Name="ITFixDesc">IT staff will fix everything your maintenance staff can't, such as computers, servers and printers</Item>
+		<Item Name="ReceptionDesc">Receptionists will greet guests who are visting your company to offer deals. You cannot receive deals without receptionists.</Item>
+		<Item Name="CourierDesc">Couriers will show up once a day and pick up any products you have printed in storage, so they can be delivered to stores, stocked and sold</Item>
+		<Item Name="CooksDesc">Cooks will cook and serve food in a canteen for your employees. You will need to have fridges, stoves and serving plates ready.</Item>
+		<Item Name="ITPayment2">{0} up front - Up to {0} per repair</Item>
+		<Item Name="PrintDealTitle">{0} の生産状況</Item>
+		<Item Name="PrintDealDesc">{0} の生産状況</Item>
+		<Item Name="Income per Mbps per month">毎月Mbps当たりの収支</Item>
+		<Item Name="Current bandwidth usage">帯域幅使用量(現在)</Item>
+		<Item Name="Maximum bandwidth usage">帯域幅使用量(上限)</Item>
+		<Item Name="Per day">一日当たり</Item>
+		<Item Name="Per copy">１製品当たり</Item>
+		<Item Name="Expires">失効</Item>
+		<Item Name="NotEnoughPallets">Your printers are getting backed up, build more pallets to unload them</Item>
+		<Item Name="PrintDealFail">You failed to print the last {0} copies for {1} costing you a total of {2} at market value</Item>
+		<Item Name="OnlineStoreServerError">You need a server to open your own digital distribution platform</Item>
+		<Item Name="OnlineStoreConfirmation">Are you sure you want to open your own digital distribution platform? All digital copies of your products will be sold through your own platform and will require adequate server capacity</Item>
+		<Item Name="OnlineStoreCloseConfirmation">Are you sure you want to close your own digital distribution platform? All your distribution deals will be cancelled and will have to be renegotiated</Item>
+		<Item Name="Open digital distribution platform">オンライン配信の管理メニューを開く</Item>
+		<Item Name="Close digital distribution platform">オンライン配信の管理メニューを閉じる</Item>
+		<Item Name="BetaPrintError">ベータフェイズ以降でしか生産できません</Item>
+		<Item Name="PlayerIPPrintError">あなたのIPしか生産できません</Item>
+		<Item Name="PricePerCopy">{0} 個</Item>
+		<Item Name="CopyPerMonth">{0} 個(毎月)</Item>
+		<Item Name="Reason">理由</Item>
+		<Item Name="Terminations">終了</Item>
+		<Item Name="EmployeeCount">{0} 人</Item>
+		<Item Name="SickNotifyPlural">{0} は療養中です</Item>
+		<Item Name="HR options">HR options</Item>
+		<Item Name="2 products">2 製品</Item>
+		<Item Name="Physical copies">Physical copies</Item>
+		<Item Name="AutoDevPhysicalHint">This amount of physical copies will be ordered for sale on release of each product developed</Item>
+		<Item Name="ProjectManagementRelease">The project management team {0} just released the {1} {2}: {3}</Item>
+		<Item Name="Gaming">ゲーム</Item>
+		<Item Name="Productivity">生産性</Item>
+		<Item Name="Security">セキュリティ</Item>
+		<Item Name="Computing">コンピューティング</Item>
+		<Item Name="All section">全て</Item>
+		<Item Name="ServerLoad">ロード</Item>
+		<Item Name="Done">完了</Item>
+		<Item Name="Build date">製造年月日</Item>
+		<Item Name="2D">2D</Item>
+		<Item Name="3D">3D</Item>
+		<Item Name="System">システム</Item>
+		<!-- Add Original Translation -->
+		<Item Name="Network">ネットワーク</Item>
+		<Item Name="Algorithm">アルゴリズム</Item>
+	</Alpha9.1>
+</UI>
