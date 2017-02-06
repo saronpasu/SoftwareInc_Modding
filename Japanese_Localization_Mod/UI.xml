@@ -82,7 +82,7 @@
 		<Item Name="MainReleaseDesc">市場で流通しているすべてのソフトウェアを一覧で表示します。</Item>
 		<Item Name="MainCompany">全企業</Item>
 		<Item Name="MainCompanyDesc">企業の詳細情報を表示します。</Item>
-		<Item Name="MainNews">ソフトウェアタイムズを読む</Item>
+		<Item Name="MainNews">ソフトウェアタイムズ</Item>
 		<Item Name="MainNewsDesc">ソフトウェア業界の最新ニュースを確認しましょう。</Item>
 		<Item Name="MainDistribution">流通チャンネル</Item>
 		<Item Name="MainDistributionDesc">自社製品の流通チャンネルを確認します。</Item>
@@ -1817,6 +1817,7 @@ Set a budget to make sure you don't run out of money or leave it at 0 if you don
 		<Item Name="3D">3D</Item>
 		<Item Name="System">システム</Item>
 		<!-- Add Original Translation -->
+		<Item Name="Printing">製品生産/管理</Item>
 		<Item Name="Network">ネットワーク</Item>
 		<Item Name="Algorithm">アルゴリズム</Item>
 	</Alpha9.1>

@@ -316,11 +316,11 @@
 		<Color1>Box</Color1>
 	</Furniture>
 	<Furniture Name="Small Product Printer">
-		<Name>Small Product Printer</Name>
+		<Name>小型製品製造機</Name>
 		<Description>A small floppy printer to print your products</Description>
 	</Furniture>
 	<Furniture Name="Pallet">
-		<Name>Pallet</Name>
+		<Name>倉庫</Name>
 		<Description>Can support up to 27 boxes with 1000 copies in each. Needs to be in the same room as a printer</Description>
 	</Furniture>
 	<Segment Name="Standard door">
