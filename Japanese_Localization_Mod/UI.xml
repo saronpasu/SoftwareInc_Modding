@@ -306,7 +306,7 @@
 		<Item Name="Close">閉じる</Item>
 	</WageWindow>
 	<LoanWindow>
-		<Item Name="Amount">借用金</Item>
+		<Item Name="Amount">数量</Item>
 		<Item Name="Interest">利息</Item>
 		<Item Name="Period">返済期日</Item>
 		<Item Name="Current loans">現在の債権</Item>
@@ -997,20 +997,20 @@ Ending the delay phase prematurely will often extend the beta phase due to the a
 		<Item Name="Electricity">電力</Item>
 		<Item Name="Water">水</Item>
 		<Item Name="Maintenance">メンテナンス</Item>
-		<Item Name="HostingDeal">Hosting for {0}</Item>
+		<Item Name="HostingDeal">{0} へホスティング中</Item>
 		<Item Name="IPDeal">{0} IP</Item>
 		<Item Name="WorkDeal">{1} for {0}</Item>
-		<Item Name="Deals">業務提携</Item>
+		<Item Name="Deals">サーバ委託</Item>
 		<Item Name="Description">概要</Item>
 		<Item Name="Client">クライアント</Item>
 		<Item Name="Offer">オファー</Item>
-		<Item Name="ServerDealDetail">大きさ: {0}
+		<Item Name="ServerDealDetail">規模: {0}
 毎時消費電力: {1}
 必要ユニット数: {2}</Item>
 		<Item Name="MainDealsDesc">Strike deals with other companies and beat them from the inside
 You need a reception to receive offers</Item>
 		<Item Name="IPDealActionBuy">このライセンスを {0} で購入しますか？</Item>
-		<Item Name="IPDealActionSell">ライセンス{0} を {1}に売却しますか？</Item>
+		<Item Name="IPDealActionSell">この製品のライセンスを {0} へ {1} で譲渡しますか？</Item>
 		<Item Name="IPDealActionFail">誰もこのライセンスを購入しようとはしません</Item>
 		<Item Name="Trade IP">ライセンスの取引</Item>
 		<Item Name="SheetDeals">業務提携</Item>
@@ -1646,8 +1646,8 @@ Please connect it using doors, elevators or stairs</Item>
 		<Item Name="Peer review">ピア・レビュー</Item>
 		<Item Name="Review">レビュー</Item>
 		<Item Name="Anonymous">匿名</Item>
-		<Item Name="ReviewOf">{0} によるレビュー</Item>
-		<Item Name="ReviewsWritten">{0} によるレビューがあります</Item>
+		<Item Name="ReviewOf">{0} へのレビュー</Item>
+		<Item Name="ReviewsWritten">{0} 件のレビューがあります</Item>
 		<Item Name="ReviewMessage">誰にピア・レビューの投稿を依頼しますか？
 ピア・レビューを外注するためには、 {0} の費用が必要です</Item>
 		<Item Name="MarketingDescAnnounce">製品のリリース日をできるだけ早くお知らせください。これにより、マーケティング活動の効果が高まります。 あまりにも遅れて製品をリリースしないようにしてください。</Item>
@@ -1657,7 +1657,7 @@ Please connect it using doors, elevators or stairs</Item>
 		<Item Name="MarketingDescBuild">製品のデモ版コピーを関係メディアへ配布することにより、先行してフォロワーを獲得できるでしょう。
 関係メディアがあなたの製品を気に入らない場合、フォロワーを失う可能性があることに注意するべきです。
 デモ版の反響は、デモ版を配布した翌日には新聞に報じられます。</Item>
-		<Item Name="MarketingDescHype">It's a good idea to maintain hype once you've gained followers, so they don't forget about your product.</Item>
+		<Item Name="MarketingDescHype">広報活動を行うのは良いアイディアです。広報活動を行うことで、あなたの製品が市場のユーザから忘れ去られてしまうことはなくなることでしょう。</Item>
 		<Item Name="MarketingDescPost">You should focus on getting your product mentioned as much as possible in the media once it is released.
 Marketing is an endless money sink and you're competing for attention with your direct competitors all the time.
 Set a budget to make sure you don't run out of money or leave it at 0 if you don't want to limit spending.</Item>
@@ -1728,8 +1728,8 @@ Set a budget to make sure you don't run out of money or leave it at 0 if you don
 		<Item Name="NewDebtLossPass">おめでとうございます。24時間が経過し、あなたの会社の負債は解消されています</Item>
 		<Item Name="ReviewError">ピア・レビューはアルファ期間中のみ利用可能です</Item>
 		<Item Name="Current floor">現在のフロア</Item>
-		<Item Name="Physical units">物理ユニット</Item>
-		<Item Name="Digital units">デジタルユニット</Item>
+		<Item Name="Physical units">生産数(オフライン)</Item>
+		<Item Name="Digital units">生産数(オンライン)</Item>
 		<Item Name="In stock">在庫</Item>
 		<Item Name="Various">様々な</Item>
 		<Item Name="Taken">撮影</Item>
@@ -1757,8 +1757,8 @@ Set a budget to make sure you don't run out of money or leave it at 0 if you don
 		<Item Name="Physical market share">マーケットシェア(オフライン)</Item>
 		<Item Name="ReleasePrintingPrompt">製品を物理的に販売するためには、製品のコピーを生産する必要があります。製品のコピーを生産せずに、オンライン配信をすることもできます。製品のコピーを生産しますか？リリースウィンドウでいつでもコピーを生産することができます。</Item>
 		<Item Name="CourierParkError">配送するための場所がありません。敷地に駐車場を設定して下さい</Item>
-		<Item Name="Start printing">コピーを製造する</Item>
-		<Item Name="Print">複製</Item>
+		<Item Name="Start printing">製品を生産する</Item>
+		<Item Name="Print">生産</Item>
 		<Item Name="Hire courier">配送を依頼する</Item>
 		<Item Name="Courier">配送</Item>
 		<Item Name="Product">製品</Item>
@@ -1790,8 +1790,8 @@ Set a budget to make sure you don't run out of money or leave it at 0 if you don
 		<Item Name="OnlineStoreServerError">You need a server to open your own digital distribution platform</Item>
 		<Item Name="OnlineStoreConfirmation">Are you sure you want to open your own digital distribution platform? All digital copies of your products will be sold through your own platform and will require adequate server capacity</Item>
 		<Item Name="OnlineStoreCloseConfirmation">Are you sure you want to close your own digital distribution platform? All your distribution deals will be cancelled and will have to be renegotiated</Item>
-		<Item Name="Open digital distribution platform">オンライン配信の管理メニューを開く</Item>
-		<Item Name="Close digital distribution platform">オンライン配信の管理メニューを閉じる</Item>
+		<Item Name="Open digital distribution platform">オンライン配信ストアをオープンする</Item>
+		<Item Name="Close digital distribution platform">オンライン配信ストアを閉鎖する</Item>
 		<Item Name="BetaPrintError">ベータフェイズ以降でしか生産できません</Item>
 		<Item Name="PlayerIPPrintError">あなたのIPしか生産できません</Item>
 		<Item Name="PricePerCopy">{0} 個</Item>
