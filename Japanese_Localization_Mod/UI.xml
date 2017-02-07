@@ -1298,7 +1298,7 @@ When you complete a word, your score multiplier increases
 The multiplier resets when you mistype a letter or when a word reaches the bottom
 
 Don't let the words reach the bottom</Item>
-		<Item Name="OwnLicense">Use own licenses</Item>
+		<Item Name="OwnLicense">自社ライセンスを使用</Item>
 	</Alpha7.6>
 	<Alpha7.7>
 		<Item Name="Hyping">詐欺</Item>
@@ -1610,12 +1610,12 @@ Please connect it using doors, elevators or stairs</Item>
 			<Item Name="Womens Beanie">レディスニット帽</Item>
 			<Item Name="KeyBindError">Couldn't bind to pressed button</Item>
 			<Item Name="BoughtOutProductsStocks">You received {0} stocks and the rights to {1} products</Item>
-			<Item Name="WorkItemTeamFilter">Filter based on selected teams</Item>
+			<Item Name="WorkItemTeamFilter">選択中のチームのみ表示</Item>
 			<Item Name="Replace furniture">設備の置き換え</Item>
 			<Item Name="ActionReplaceFurn">設備の置き換え</Item>
 			<Item Name="InstallMods">インストールされたMOD</Item>
 			<Item Name="Idle employees">待機中の従業員</Item>
-			<Item Name="NotWorkingState">Not working</Item>
+			<Item Name="NotWorkingState">退屈している</Item>
 			<Item Name="NoWork">何も割り振られていない</Item>
 			<Item Name="NoComputer">利用可能なコンピュータがありません</Item>
 			<Item Name="NotApplicable">割り振られたタスクに適性がありません</Item>
@@ -1646,8 +1646,8 @@ Please connect it using doors, elevators or stairs</Item>
 		<Item Name="Peer review">ピア・レビュー</Item>
 		<Item Name="Review">レビュー</Item>
 		<Item Name="Anonymous">匿名</Item>
-		<Item Name="ReviewOf">{0} 件のレビュー</Item>
-		<Item Name="ReviewsWritten">{0} 件のレビューがあります</Item>
+		<Item Name="ReviewOf">{0} によるレビュー</Item>
+		<Item Name="ReviewsWritten">{0} によるレビューがあります</Item>
 		<Item Name="ReviewMessage">誰にピア・レビューの投稿を依頼しますか？
 ピア・レビューを外注するためには、 {0} の費用が必要です</Item>
 		<Item Name="MarketingDescAnnounce">製品のリリース日をできるだけ早くお知らせください。これにより、マーケティング活動の効果が高まります。 あまりにも遅れて製品をリリースしないようにしてください。</Item>
@@ -1802,8 +1802,8 @@ Set a budget to make sure you don't run out of money or leave it at 0 if you don
 		<Item Name="SickNotifyPlural">{0} は療養中です</Item>
 		<Item Name="HR options">HR options</Item>
 		<Item Name="2 products">2 製品</Item>
-		<Item Name="Physical copies">Physical copies</Item>
-		<Item Name="AutoDevPhysicalHint">This amount of physical copies will be ordered for sale on release of each product developed</Item>
+		<Item Name="Physical copies">製品生産数(オフライン)</Item>
+		<Item Name="AutoDevPhysicalHint">開発完了時に指定された数だけ、製品の製造予定が発注されます。</Item>
 		<Item Name="ProjectManagementRelease">The project management team {0} just released the {1} {2}: {3}</Item>
 		<Item Name="Gaming">ゲーム</Item>
 		<Item Name="Productivity">生産性</Item>
@@ -1816,9 +1816,23 @@ Set a budget to make sure you don't run out of money or leave it at 0 if you don
 		<Item Name="2D">2D</Item>
 		<Item Name="3D">3D</Item>
 		<Item Name="System">システム</Item>
-		<!-- Add Original Translation -->
-		<Item Name="Printing">製品生産/管理</Item>
 		<Item Name="Network">ネットワーク</Item>
 		<Item Name="Algorithm">アルゴリズム</Item>
+		<Item Name="Please enter your license key">Please enter your license key in the format ####-####-####-####</Item>
 	</Alpha9.1>
+	<Alpha9.2>
+		<Item Name="Overall score">総合評価</Item>
+		<Item Name="Review accuracy">レビュー精度</Item>
+		<Item Name="Printing">製品生産/管理</Item>
+		<Item Name="AskPrintingOption">Ask about printing on release</Item>
+		<Item Name="SteamWorkshopNotePrompt">Please write briefly what has changed</Item>
+		<Item Name="Change notes">更新履歴</Item>
+		<Item Name="NoPrintersWarning">You do not own any product printers, are you sure you want to start a printing job?
+You can order copies instantly for {0} per copy by clicking the "Order copies" button</Item>
+		<Item Name="LostSalesPopup">{0} does not meet demand and you are losing sales. You need to order more physical copies of {0} or print your own</Item>
+		<Item Name="FurnitureReplacementBlocked">Not all furniture was replaced as it was blocked by something else</Item>
+		<Item Name="No release date">No release date</Item>
+	</Alpha9.2>
+	<!-- Add Original Translation -->
+	<Item Name="Outsource">外注</Item>
 </UI>

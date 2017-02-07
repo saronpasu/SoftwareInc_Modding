@@ -269,7 +269,7 @@
 		<Color1>Casing</Color1>
 	</Furniture>
 	<Furniture Name="Medium Server">
-		<Name>Medium Server</Name>
+		<Name>標準型サーバ</Name>
 		<Description>Like a small server, but more medium</Description>
 		<Color1>Casing</Color1>
 	</Furniture>
@@ -280,13 +280,13 @@
 		<Color2>Lighting</Color2>
 	</Furniture>
 	<Furniture Name="Server Rack">
-		<Name>ラックサーバ</Name>
+		<Name>サーバラック</Name>
 		<Description>If one computer is not enough</Description>
 		<Color1>Casing</Color1>
 		<Color2>Support</Color2>
 	</Furniture>
 	<Furniture Name="Big Server Rack">
-		<Name>Big Server Rack</Name>
+		<Name>大型サーバラック</Name>
 		<Description>When you can't get enough server</Description>
 		<Color1>Casing</Color1>
 		<Color2>Casing</Color2>
