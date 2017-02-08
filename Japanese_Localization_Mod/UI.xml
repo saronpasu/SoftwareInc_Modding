@@ -1000,7 +1000,7 @@ Ending the delay phase prematurely will often extend the beta phase due to the a
 		<Item Name="HostingDeal">{0} へホスティング中</Item>
 		<Item Name="IPDeal">{0} IP</Item>
 		<Item Name="WorkDeal">{1} for {0}</Item>
-		<Item Name="Deals">サーバ委託</Item>
+		<Item Name="Deals">業務提携</Item>
 		<Item Name="Description">概要</Item>
 		<Item Name="Client">クライアント</Item>
 		<Item Name="Offer">オファー</Item>
