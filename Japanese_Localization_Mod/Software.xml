@@ -575,7 +575,7 @@
 		<Categories></Categories>
 	</Software>
 	<Software Name="Embedded System">
-		<Name>埋め込みシステム</Name>
+		<Name>組み込みシステム</Name>
 		<Description></Description>
 		<Features>
 			<Feature Name="Clock">

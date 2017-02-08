@@ -1352,9 +1352,9 @@ Don't let the words reach the bottom</Item>
 		<Item Name="CompanyMissingWarning">その会社は存在しません。</Item>
 		<Item Name="Find owner">オーナーを検索</Item>
 		<Item Name="Software">ソフトウェア</Item>
-		<Item Name="Port">ポート</Item>
-		<Item Name="Porting">ポート</Item>
-		<Item Name="PortTo"> {0}へのポート</Item>
+		<Item Name="Port">対応OSを追加する</Item>
+		<Item Name="Porting">拡張中</Item>
+		<Item Name="PortTo"> {0}への拡張中</Item>
 		<Item Name="UnsupportedProcWarning">あなたにはサポートされていないサーバープロセスがあります。</Item>
 		<Item Name="Max quality">最大品質</Item>
 		<Item Name="Fence">フェンス</Item>
@@ -1723,7 +1723,7 @@ Set a budget to make sure you don't run out of money or leave it at 0 if you don
 		<Item Name="Temporarily unavailable">今は利用できません</Item>
 		<Item Name="AutoDevMissingLeader">You need to pick a leader before you can continue</Item>
 		<Item Name="AutoDevNoLeaders">There are no leaders to choose from. Please hire a leader or make one of your current employees a leader</Item>
-		<Item Name="LateProductRelease">開発遅延により {0} 人のフォロワーを失いました</Item>
+		<Item Name="LateProductRelease">開発遅延により {0} のフォロワーを失いました</Item>
 		<Item Name="NewDebtLoss">あなたの会社は多大な負債を抱えています。{0} までに負債を解消しなければ、あなたの会社は破産を余儀なくされています</Item>
 		<Item Name="NewDebtLossPass">おめでとうございます。24時間が経過し、あなたの会社の負債は解消されています</Item>
 		<Item Name="ReviewError">ピア・レビューはアルファ期間中のみ利用可能です</Item>
@@ -1835,4 +1835,6 @@ You can order copies instantly for {0} per copy by clicking the "Order copies" b
 	</Alpha9.2>
 	<!-- Add Original Translation -->
 	<Item Name="Outsource">外注</Item>
+	<Item Name="Late">遅延納品</Item>
+	<Item Name="Inadequate">早期納品</Item>
 </UI>
